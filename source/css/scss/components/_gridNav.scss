@@ -1,0 +1,47 @@
+.gridNav {
+  padding:.25rem;
+  border-top:solid 1px $gray-lighter;
+  border-bottom:solid 1px $gray-lighter;
+
+  .form-inline {
+    display:flex;
+    align-items: center;
+
+    width:100%;
+  }
+  .form-group {
+    label {
+      margin-right:.5rem;
+    }
+  }
+  .pagination-group {
+    margin-left:2rem;
+  }
+  .page-item {
+    margin:0 .5rem;
+    position:relative;
+    a {
+      color:$gray;
+    }
+    // &:after {
+    //   content:"";
+    //   height:2rem;
+    //   width:1px;
+    //   position:absolute;
+    //   right:-.6rem;
+    //   top:-.25rem;
+    //   background:$gray-lighter;
+    //   transform:rotate(20deg);
+    // }
+    &.active {
+      border-bottom:solid 2px red;
+      a {
+        color:black;
+      }
+    }
+  }
+  .form-group:last-child {
+    margin-left:auto;
+    display:block;
+   }
+}

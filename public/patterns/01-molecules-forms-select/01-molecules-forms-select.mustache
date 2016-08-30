@@ -1,0 +1,12 @@
+{{#select}}
+<div class="form-group">
+<label for="{{ id }}" class="c-field__label">{{ label }}</label>
+<select id="select" class="custom-select form-control" >
+	<optgroup label="Select">
+		{{# selectOptions}}
+			<option>{{option}}</option>
+		{{/selectOptions}}
+	</optgroup>
+</select>
+</div>
+{{/select}}

@@ -1,0 +1,17 @@
+<div class="gridNav">
+	<div class="input-group">
+
+	<div class="form-inline">
+	{{>molecules-select}}
+	<div class="pagination-group">
+		<label>Page</label>
+		<ol class="pagination">
+			{{# paginationList }}
+				<li class="page-item {{class}}"><a href="{{ url }}">{{ number }}</a></li>
+			{{/ paginationList }}
+		</ol>
+	</div>
+		{{>molecules-checkbox}}
+</div>
+</div>
+</div>

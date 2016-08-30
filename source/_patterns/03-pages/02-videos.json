@@ -1,0 +1,334 @@
+{
+	"pageTitle" : "Videos",
+	"primaryNav" : [
+			{
+					"label": "Videos",
+					"url": "link.pages-video"
+			},
+			{
+					"label": "Lesson Plans",
+					"url": "link.pages-lesson-plans"
+			},
+			{
+					"label": "Assembly Scripts",
+					"url": "link.pages-assembly-scripts"
+			},
+			{
+					"label": "Interactive",
+					"url": "link.pages-interactive"
+			}
+	],
+    "alert" : {
+		"styleModifier" : "info"
+	},
+    "blockFeature" : {
+	    "styleModifier" : "featured",
+	    "number" : "4,500",
+	    "headline" : {
+			"short": "Feet of Elevation Gain"
+		},
+		"progress" : {
+			"max" : "100",
+			"progressValue" : "100",
+			"label" : "Progress: 100%"
+		}
+
+    },
+    "tileList" : [
+		{
+			"number" : "16",
+			"headline" : {
+				"short": "National Parks"
+			},
+			"progress" : {
+				"max" : "100",
+				"progressValue" : "20",
+				"label" : "Progress: 20%"
+			}
+		},
+		{
+			"number" : "500",
+			"headline" : {
+				"short": "Hikes"
+			},
+			"progress" : {
+				"max" : "100",
+				"progressValue" : "40",
+				"label" : "Progress: 40%"
+			}
+		},
+		{
+			"number" : "62,500",
+			"headline" : {
+				"short": "Calories Burned"
+			},
+			"progress" : {
+				"max" : "100",
+				"progressValue" : "60",
+				"label" : "Progress: 60%"
+			}
+		},
+		{
+			"number" : "94,300,843",
+			"headline" : {
+				"short": "Steps"
+			},
+			"progress" : {
+				"max" : "100",
+				"progressValue" : "80",
+				"label" : "Progress: 80%"
+			}
+		}
+    ],
+    "videoResults" : {
+			"select" : {
+				"label" : "Items Per Page",
+				"selectOptions" : [
+					{
+						"option" : "9"
+					},
+					{
+						"option" : "18"
+					},
+					{
+						"option" : "36"
+					},
+					{
+						"option" : "ALL"
+					}
+				]
+			},
+			"checkbox" : {
+				"label" : "Show Descriptions"
+			},
+	    "sectionTitle" : "",
+	    "mediaList" : [
+			{
+				"url" : "link.pages-blog-detail",
+				"imgLandscape" : {
+					"src": "../../../images/sample/grid_1.jpg",
+					"alt": "red mountains"
+				},
+				"headline" : {
+					"short" : "Charlie & Blue celebrate passover"
+				},
+				"description" : {
+					"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+				},
+				"categoryList" : [
+					{
+						"btnText": "Video",
+						"btnClass": "btn-video btn-sm"
+					},
+					{
+						"btnText": "Lesson Plan",
+						"btnClass": "btn-lesson-plan btn-sm"
+					}
+				]
+			},
+			{
+				"url" : "link.pages-blog-detail",
+				"imgLandscape" : {
+					"src": "../../../images/sample/grid_2.jpg",
+					"alt": "red mountains"
+				},
+				"headline" : {
+					"short" : "Charlie & Blue learn about enlightenment"
+				},
+				"description" : {
+					"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+				},
+				"categoryList" : [
+					{
+						"btnText": "Video",
+						"btnClass": "btn-video btn-sm"
+					},
+					{
+						"btnText": "Lesson Plan",
+						"btnClass": "btn-lesson-plan btn-sm"
+					}
+				]
+			},
+			{
+				"url" : "link.pages-blog-detail",
+				"imgLandscape" : {
+					"src": "../../../images/sample/grid_3.jpg",
+					"alt": "red mountains"
+				},
+				"headline" : {
+					"short" : "Charlie & Blue celebrate passover"
+				},
+				"description" : {
+					"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+				},
+				"categoryList" : [
+					{
+						"btnText": "Video",
+						"btnClass": "btn-video btn-sm"
+					},
+					{
+						"btnText": "Lesson Plan",
+						"btnClass": "btn-lesson-plan btn-sm"
+					}
+				]
+			},
+			{
+				"url" : "link.pages-blog-detail",
+				"imgLandscape" : {
+					"src": "../../../images/sample/grid_4.jpg",
+					"alt": "red mountains"
+				},
+				"headline" : {
+					"short" : "Charlie & Blue celebrate passover"
+				},
+				"description" : {
+					"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+				},
+				"categoryList" : [
+					{
+						"btnText": "Video",
+						"btnClass": "btn-video btn-sm"
+					},
+					{
+						"btnText": "Lesson Plan",
+						"btnClass": "btn-lesson-plan btn-sm"
+					}
+				]
+			},
+			{
+				"url" : "link.pages-blog-detail",
+				"imgLandscape" : {
+					"src": "../../../images/sample/grid_5.jpg",
+					"alt": "red mountains"
+				},
+				"headline" : {
+					"short" : "Charlie & Blue celebrate passover"
+				},
+				"description" : {
+					"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+				},
+				"categoryList" : [
+					{
+						"btnText": "Video",
+						"btnClass": "btn-video btn-sm"
+					},
+					{
+						"btnText": "Lesson Plan",
+						"btnClass": "btn-lesson-plan btn-sm"
+					}
+				]
+			},
+			{
+				"url" : "link.pages-blog-detail",
+				"imgLandscape" : {
+					"src": "../../../images/sample/grid_6.jpg",
+					"alt": "red mountains"
+				},
+				"headline" : {
+					"short" : "Charlie & Blue celebrate passover"
+				},
+				"description" : {
+					"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+				},
+				"categoryList" : [
+					{
+						"btnText": "Video",
+						"btnClass": "btn-video btn-sm"
+					},
+					{
+						"btnText": "Lesson Plan",
+						"btnClass": "btn-lesson-plan btn-sm"
+					}
+				]
+			}
+		],
+		"textButton" : false,
+		"pagination" : {
+			"paginationList" : [
+				{
+					"url" : "#",
+					"number" : "1"
+				},
+				{
+					"url" : "#",
+					"number" : "2",
+					"class" : "active"
+				},
+				{
+					"url" : "#",
+					"number" : "3"
+				},
+				{
+					"url" : "#",
+					"number" : "4"
+				},
+				{
+					"url" : "#",
+					"number" : "5"
+				},
+				{
+					"url" : "#",
+					"number" : "6"
+				},
+				{
+					"url" : "#",
+					"number" : "7"
+				},
+				{
+					"url" : "#",
+					"number" : "8"
+				}
+			]
+		}
+    },
+    "featuredPeople" : {
+		"sectionTitle" : "Friends",
+		"mediaList": [
+			{
+				"url" : "",
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar4.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Danny DeVito"
+				},
+				"excerpt" : {
+					"medium" : "Neptune Township, NJ"
+				}
+
+			},
+			{
+				"url" : "",
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar6.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Sally Jessy Raphael"
+				},
+				"excerpt" : {
+					"medium" : "Easton, PA"
+				}
+
+			},
+			{
+				"url" : "",
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar5.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Charlie Chaplin"
+				},
+				"excerpt" : {
+					"medium" : "London, UK"
+				}
+
+			}
+		]
+	}
+}

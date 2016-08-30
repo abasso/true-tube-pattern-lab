@@ -1,0 +1,14 @@
+footer {
+  padding:1rem 0;
+  background:$brand-grey;
+  margin-top:3rem;
+  color:$gray;
+  font-weight:200;
+  a {
+    color:white;
+  }
+  .copyright {
+    margin-top:2rem;
+    font-size:$font-size-xs;
+  }
+}
