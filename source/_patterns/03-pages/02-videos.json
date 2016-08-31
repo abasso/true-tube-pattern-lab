@@ -99,7 +99,8 @@
 				]
 			},
 			"checkbox" : {
-				"label" : "Show Descriptions"
+				"label" : "Show Descriptions",
+				"css" : "toggle-descriptions"
 			},
 	    "sectionTitle" : "",
 	    "mediaList" : [
@@ -242,44 +243,7 @@
 				]
 			}
 		],
-		"textButton" : false,
-		"pagination" : {
-			"paginationList" : [
-				{
-					"url" : "#",
-					"number" : "1"
-				},
-				{
-					"url" : "#",
-					"number" : "2",
-					"class" : "active"
-				},
-				{
-					"url" : "#",
-					"number" : "3"
-				},
-				{
-					"url" : "#",
-					"number" : "4"
-				},
-				{
-					"url" : "#",
-					"number" : "5"
-				},
-				{
-					"url" : "#",
-					"number" : "6"
-				},
-				{
-					"url" : "#",
-					"number" : "7"
-				},
-				{
-					"url" : "#",
-					"number" : "8"
-				}
-			]
-		}
+		"textButton" : false
     },
     "featuredPeople" : {
 		"sectionTitle" : "Friends",

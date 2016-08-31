@@ -1,8 +1,8 @@
-.gridNav {
+.grid-nav {
   padding:.25rem;
   border-top:solid 1px $gray-lighter;
   border-bottom:solid 1px $gray-lighter;
-
+  font-size:0.95rem;
   .form-inline {
     display:flex;
     align-items: center;
@@ -17,30 +17,50 @@
   .pagination-group {
     margin-left:2rem;
   }
-  .page-item {
+  .grid-nav-item {
     margin:0 .5rem;
     position:relative;
     a {
       color:$gray;
     }
-    // &:after {
-    //   content:"";
-    //   height:2rem;
-    //   width:1px;
-    //   position:absolute;
-    //   right:-.6rem;
-    //   top:-.25rem;
-    //   background:$gray-lighter;
-    //   transform:rotate(20deg);
-    // }
-    &.active {
-      border-bottom:solid 2px red;
+    &:hover {
       a {
+        border-bottom:solid 2px $gray;
+        color:black;
+      }
+    }
+    &.active {
+      a {
+        border-bottom:solid 2px red;
         color:black;
       }
     }
   }
-  .form-group:last-child {
+  .display-group {
+    .form-group {
+      margin-top:-4px;
+      margin-right:0.5rem;
+      border-right:solid 1px $gray-lighter;
+      padding-right:0.5rem;
+    }
+    .page-item:last-child {
+      margin-right:0;
+    }
+    .list-mode {
+      li:last-child {
+        position:relative;
+        &:after {
+          content:"";
+          height:2rem;
+          width:1px;
+          position:absolute;
+          left:-.6rem;
+          top:-.25rem;
+          background:$gray-lighter;
+          transform:rotate(10deg);
+        }
+      }
+    }
     margin-left:auto;
     display:block;
    }

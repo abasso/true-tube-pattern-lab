@@ -1,4 +1,4 @@
-<div class="gridNav">
+<div class="grid-nav">
 	<div class="input-group">
 
 	<div class="form-inline">
@@ -7,11 +7,22 @@
 		<label>Page</label>
 		<ol class="pagination">
 			{{# paginationList }}
-				<li class="page-item {{class}}"><a href="{{ url }}">{{ number }}</a></li>
+				<li class="page-item grid-nav-item {{class}}">
+					{{>atoms-text-button}}
+				</li>
 			{{/ paginationList }}
 		</ol>
 	</div>
+	<div class="display-group">
 		{{>molecules-checkbox}}
+		<ol class="list-mode">
+			{{# listMode }}
+			<li class="page-item grid-nav-item {{class}}">
+				{{>atoms-text-button}}
+			</li>
+			{{/ listMode }}
+		</ol>
+	</div>
 </div>
 </div>
 </div>
