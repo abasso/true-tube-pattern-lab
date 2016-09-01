@@ -186,11 +186,11 @@ $font-size-xs:   .75rem !default;
 
 $line-height-base: 1.5 !default;
 
-$font-size-h1: 2.5rem !default;
-$font-size-h2: 2rem !default;
-$font-size-h3: 1.75rem !default;
-$font-size-h4: 1.5rem !default;
-$font-size-h5: 1.25rem !default;
+$font-size-h1: 1.75rem !default;
+$font-size-h2: 1.5rem !default;
+$font-size-h3: 1.25rem !default;
+$font-size-h4: 1rem !default;
+$font-size-h5: 1rem !default;
 $font-size-h6: 1rem !default;
 
 $display1-size: 6rem !default;
@@ -387,7 +387,7 @@ $custom-control-gutter:   1.5rem !default;
 $custom-control-spacer-x: 1rem !default;
 $custom-control-spacer-y: .25rem !default;
 
-$custom-control-indicator-size:       1rem !default;
+$custom-control-indicator-size:       0.8rem !default;
 $custom-control-indicator-bg:         #fff !default;
 $custom-control-indicator-bg-size:    80% !default;
 $custom-control-indicator-box-shadow: 0px 0px 1px rgba(0,0,0,0.3) !default;

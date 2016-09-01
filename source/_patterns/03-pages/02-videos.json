@@ -1,5 +1,5 @@
 {
-	"pageTitle" : "Videos",
+	"pageTitle" : "Keystage 4 Videos about Human Rights (63 Items)",
 	"primaryNav" : [
 			{
 					"label": "Videos",
@@ -16,6 +16,11 @@
 			{
 					"label": "Interactive",
 					"url": "link.pages-interactive"
+			},
+			{
+					"label": "",
+					"url": "link.pages-interactive",
+					"class": "primary-nav__search"
 			}
 	],
     "alert" : {
@@ -100,7 +105,8 @@
 			},
 			"checkbox" : {
 				"label" : "Show Descriptions",
-				"css" : "toggle-descriptions"
+				"css" : "toggle-descriptions",
+				"checked" : "checked"
 			},
 	    "sectionTitle" : "",
 	    "mediaList" : [

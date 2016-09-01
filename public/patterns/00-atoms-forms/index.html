@@ -16,8 +16,8 @@
 <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 <meta http-equiv="pragma" content="no-cache" />
 
-<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1472686595330" media="all">
-<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1472686595330" media="all" />
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1472769761136" media="all">
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1472769761136" media="all" />
 
     <!-- End Pattern Lab -->
   
@@ -51,11 +51,14 @@
     
   </div>
   <div class="sg-pattern-example">
-    <input id="text" type="text" class="form-control" placeholder="Text Input">
+    <div class="btn-group">
+  <input id="text" type="text" class="form-control" placeholder="Placeholder Text">
+  <span id="searchclear" class="glyphicon glyphicon-remove-circle"></span>
+</div>
 
   </div>
   <script type="text/json" id="sg-pattern-data-atoms-text-field" class="sg-pattern-data">
-    {"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<p>[Insert description here]</p>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"forms"},"patternExtension":"mustache","patternName":"Text Field","patternPartial":"atoms-text-field","patternState":"","extraOutput":{}}
+    {"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"organisms-grid-filter","lineagePath":"../../patterns/02-organisms-forms-grid-filter/02-organisms-forms-grid-filter.html"}],"lineageR":[{"lineagePattern":"organisms-grid-filter","lineagePath":"../../patterns/02-organisms-forms-grid-filter/02-organisms-forms-grid-filter.html"}],"patternLineageEExists":true,"patternDesc":"<p>[Insert description here]</p>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"forms"},"patternExtension":"mustache","patternName":"Text Field","patternPartial":"atoms-text-field","patternState":"","extraOutput":{}}
   </script>
 </div><!--end .sg-pattern-->
 <div id="atoms-text-area" class="sg-pattern">
@@ -145,13 +148,38 @@
   </div>
   <div class="sg-pattern-example">
     <div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input " checked="checked" /> 
+  <input type="checkbox" class="custom-control-input "  /> 
   <div class="custom-control-indicator"></div>
 </div>
 
   </div>
   <script type="text/json" id="sg-pattern-data-atoms-checkbox" class="sg-pattern-data">
     {"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<p>[Insert description here]</p>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"forms"},"patternExtension":"mustache","patternName":"Checkbox","patternPartial":"atoms-checkbox","patternState":"","extraOutput":{}}
+  </script>
+</div><!--end .sg-pattern-->
+<div id="atoms-fieldset" class="sg-pattern">
+  <div class="sg-pattern-head">
+    <h3 class="sg-pattern-title">
+      <a href="../../patterns/00-atoms-forms-fieldset&#x2F;00-atoms-forms-fieldset.html" class="patternLink" data-patternpartial="atoms-fieldset" title="Link to Pattern">
+          Fieldset
+      </a>
+    </h3>
+    <div class="sg-pattern-breadcrumb"></div>
+    <a href="#" data-patternpartial="atoms-fieldset" title="View Pattern Info" id="sg-pattern-extra-toggle-atoms-fieldset" class="sg-pattern-extra-toggle"><span>&#9660;</span></a>
+  </div>
+  <div class="sg-pattern-extra" id="sg-pattern-extra-atoms-fieldset">
+    
+  </div>
+  <div class="sg-pattern-example">
+    <fieldset>
+  <legend>
+    <a href="#" class="collapse-toggle">Fieldset Legend<span class="clear">Clear</span></a>
+  </legend>
+</fieldset>
+
+  </div>
+  <script type="text/json" id="sg-pattern-data-atoms-fieldset" class="sg-pattern-data">
+    {"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":false,"patternDesc":"<p>[Insert description here]</p>\n","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"forms"},"patternExtension":"mustache","patternName":"Fieldset","patternPartial":"atoms-fieldset","patternState":"","extraOutput":{}}
   </script>
 </div><!--end .sg-pattern-->
   </div> <!--end #sg-patterns-->
@@ -196,10 +224,10 @@
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1472686595330">
+<script id="pl-js-polyfill-insert-1472769761136">
   (function() {
     if (self != top) {
-      var cb = '1472686595330';
+      var cb = '1472769761136';
       var js = [];
       if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
         js.push('styleguide/bower_components/classList.min.js');
@@ -209,10 +237,10 @@
   })();
 </script>
 
-<script id="pl-js-insert-1472686595330">
+<script id="pl-js-insert-1472769761136">
   (function() {
     if (self != top) {
-      var cb = '1472686595330';
+      var cb = '1472769761136';
       var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
       scriptLoader.run(js,cb,'pl-js-insert');
     }

@@ -71,6 +71,11 @@
         {
             "label": "Interactive",
             "url": "link.pages-interactive"
+        },
+        {
+            "label": "",
+            "url": "link.pages-interactive",
+            "class": "primary-nav__search"
         }
     ],
     "secondaryNav" : [
@@ -162,6 +167,7 @@
         { },
         { }
     ],
+    "textFieldPlaceholder" : "Placeholder Text",
     "textarea" : {
 	    "label" : "label"
     },
@@ -301,5 +307,118 @@
   "sectionBlock" : true,
   "textButton" : true,
 	"overlayMessage" : "Let's go on a hike and climb in elevation",
-	"overlayAction" : "Find a Hike"
+	"overlayAction" : "Find a Hike",
+  "filterShowHide": [
+    {
+      "btnClass" : "filterShowHide",
+      "btnText": "Show"
+    }
+  ],
+  "filterContentTypes" : [
+    {
+      "btnClass" : "active btn-sm",
+      "btnText" : "Videos"
+    },
+    {
+      "btnClass" : "btn-sm",
+      "btnText" : "Lesson Plans"
+    },
+    {
+      "btnClass" : "btn-sm",
+      "btnText" : "Assembly Scripts"
+    },
+    {
+      "btnClass" : "btn-sm",
+      "btnText" : "Interactive"
+    }
+  ],
+  "filterKeyStages" : [
+    {
+      "btnClass" : "active btn-sm",
+      "btnText" : "1"
+    },
+    {
+      "btnClass" : "btn-sm",
+      "btnText" : "2"
+    },
+    {
+      "btnClass" : "btn-sm",
+      "btnText" : "3"
+    },
+    {
+      "btnClass" : "btn-sm",
+      "btnText" : "4"
+    },
+    {
+      "btnClass" : "btn-sm",
+      "btnText" : "5"
+    }
+  ],
+  "filterSubject" : {
+    "select" : {
+    "label" : "",
+    "labelClass" : "d-hidden",
+    "selectOptions": [
+      {
+        "option" : "All"
+      }
+    ]
+  }
+  },
+  "filterCategories" : {
+      "checkbox" : [
+      {
+        "label" : "Global (80)"
+      },
+      {
+        "label" : "The Earth (80)",
+        "checked" : "checked"
+      },
+      {
+        "label" : "Relationships (50)"
+      },
+      {
+        "label" : "Culture (118)"
+      },
+      {
+        "label" : "Society (120)"
+      },
+      {
+        "label" : "Ethics & Religion (221)"
+      },
+      {
+        "label" : "Jobs & Money (154)"
+      },
+      {
+        "label" : "Crime (52)"
+      },
+      {
+        "label" : "Body & Health (126)"
+      }
+
+    ]
+  },
+  "filterTopics" : {
+      "checkbox" : [
+      {
+        "label" : "Europe (115)"
+      },
+      {
+        "label" : "Human Rights (63)"
+      },
+      {
+        "label" : "Customs & Traditions (50)",
+        "checked" : "checked"
+      },
+      {
+        "label" : "The Developing World (118)"
+      },
+      {
+        "label" : "Travel (120)"
+      }
+    ]
+  },
+  "filterSearch" : {
+      "textFieldPlaceholder" : "e.g. Social studies"
+  }
 }

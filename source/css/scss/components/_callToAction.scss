@@ -25,4 +25,9 @@
       float:right;
     }
   }
+  .btn {
+    &:hover {
+      color:black;
+    }
+  }
 }

@@ -1,4 +1,8 @@
 .grid-nav {
+  display:none;
+  @media(min-width: $breakpoint-xl) {
+    display:block;
+  }
   padding:.25rem;
   border-top:solid 1px $gray-lighter;
   border-bottom:solid 1px $gray-lighter;
@@ -63,5 +67,11 @@
     }
     margin-left:auto;
     display:block;
+   }
+   &:last-child {
+     border-bottom:none;
+   }
+   &:nth-of-type(1) {
+     border-top:none;
    }
 }

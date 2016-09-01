@@ -1,3 +1,57 @@
+
 <div class="gridFilter">
+  <h5>Filter <span class="clear">Clear All</span></h5>
+  {{#filterShowHide}}
+    {{>atoms-button}}
+  {{/filterShowHide}}
+  <fieldset>
+    <legend>
+      <a href="#" class="collapse-toggle">Search Term</a>
+    </legend>
+    {{#filterSearch}}
+      {{>atoms-text-field}}
+    {{/filterSearch}}
+  </fieldset>
+  <fieldset class="flex-none">
+    <legend>
+      <a href="#" class="collapse-toggle">Content Type(s)<span class="clear">Clear</span></a>
+    </legend>
+    {{#filterContentTypes}}
+      {{>atoms-button}}
+    {{/filterContentTypes}}
+  </fieldset>
+  <fieldset>
+    <legend>
+      <a href="#" class="collapse-toggle">Subject</a>
+    </legend>
+    {{#filterSubject}}
+      {{>molecules-select}}
+    {{/filterSubject}}
+  </fieldset>
+  <fieldset class="flex-none filter-keystage">
+    <legend>
+      <a href="#" class="collapse-toggle">Key Stage(s)<span class="clear">Clear</span></a>
+    </legend>
+    {{#filterKeyStages}}
+      {{>atoms-button}}
+    {{/filterKeyStages}}
+  </fieldset>
+  <fieldset>
+    <legend>
+      <a href="#" class="collapse-toggle">Categories<span class="clear">Clear</span></a>
+    </legend>
+    {{#filterCategories}}
+      {{>molecules-checkbox}}
+    {{/filterCategories}}
+  </fieldset>
+
+  <fieldset>
+    <legend>
+      <a href="#" class="collapse-toggle">Topics<span class="clear">Clear</span></a>
+    </legend>
+    {{#filterTopics}}
+      {{>molecules-checkbox}}
+    {{/filterTopics}}
+  </fieldset>
 
 </div>

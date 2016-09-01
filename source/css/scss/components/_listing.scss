@@ -9,10 +9,16 @@
     left:0px;
   }
 }
+
+.block-media__body {
+  display:flex;
+  flex-direction: column;
+}
+
 .hide-description {
   .block-media__description {
     display:none;
-  }  
+  }
 }
 
 .block-media__link {
@@ -54,6 +60,7 @@
     margin:0 -20px;
   }
   .list-item {
+    transition: all 0.8s;
     @media(min-width: $breakpoint-sm) {
       margin:20px 20px 20px 20px;
       width: calc(100% * (1/2) - 40px - 1px);
@@ -66,6 +73,7 @@
 }
 
 .list-row {
+  transition: all 0.8s;
   @media(min-width: $breakpoint-sm) {
   flex-direction:column;
   .list-item {

@@ -148,3 +148,11 @@ mark,
   }
   // scss-lint:enable QualifyingElement
 }
+.page-title {
+  font-size:1.5rem;
+  margin:0;
+  @media(min-width: $breakpoint-xl) {
+    font-size:1.75rem;
+    margin:1.5rem 0;
+  }
+}
