@@ -1,8 +1,14 @@
+body {
+  &.fixed {
+    overflow:hidden;
+  }
+}
+
 .logo {
   margin:1rem 0;
-  height:80px;
+  height:70px;
   @media(max-width: $breakpoint-sm) {
-    height:60px;
+    height:50px;
   }
 }
 
@@ -10,11 +16,62 @@ header {
   width:100%;
   background:$brand-grey;
   position:relative;
+  .menu-mobile {
+    transition: all 0.4s ease;
+    @media(max-width: $breakpoint-xl) {
+      //display:none;
+      .logo {
+        height:50px;
+      }
+    top:0;
+    left:-100%;
+    background:black;
+    width:100%;
+    max-width:500px;
+    z-index:9;
+    position:fixed;
+    overflow-y:scroll;
+    height:100%;
+    .primary-nav {
+      position:relative;
+      top:0px;
+      margin-left:1rem;
+      border-bottom:solid 3px $brand-yellow;
+      .primary-nav__item {
+        margin:.5rem 0;
+      }
+    }
+    .secondary-nav {
+      position:relative;
+      overflow:hidden;
+      padding-top:1rem;
+      .secondary-nav__item {
+        margin-left:5px;
+        margin-right:15px;
+        padding-left:0;
+        border-bottom:solid 1px $gray-dark;
+      }
+    }
+    .primary-nav__search {
+      display:none;
+    }
+    &.show {
+      left:0%;
+    }
+  }
+  .container {
+    flex-direction:row;
+    @media(max-width: $breakpoint-xl) {
+      flex-direction:column;
+    }
+  }
+}
   .primary-nav {
-    position:absolute;
     display:flex;
     flex-direction: column;
+    margin-left:auto;
     @media(min-width: $breakpoint-xl) {
+      align-self:center;
       flex-direction: row;
     }
     top:40px;
@@ -78,57 +135,15 @@ header {
     position:relative;
     display:flex;
     width:100%;
-  }
+    flex-direction:row;
 
-  .menu-mobile {
-    @media(max-width: $breakpoint-xl) {
-      //display:none;
-      .logo {
-        height:50px;
-      }
-    top:0;
-    left:0;
-    background:black;
-    width:100%;
-    max-width:500px;
-    z-index:9;
-    position:fixed;
-    overflow-y:scroll;
-    height:100%;
-    .primary-nav {
-      position:relative;
-      top:0px;
-      margin-left:1rem;
-      border-bottom:solid 3px $brand-yellow;
-      .primary-nav__item {
-        margin:.5rem 0;
-      }
-    }
-    .secondary-nav {
-      position:relative;
-      overflow:hidden;
-      padding-top:1rem;
-      .secondary-nav__item {
-        margin-left:5px;
-        margin-right:15px;
-        padding-left:0;
-        border-bottom:solid 1px $gray-dark;
-      }
-    }
-    .primary-nav__search {
-      display:none;
-    }
   }
-}
 }
   .mobile-nav__burger {
     display:none;
-    @media(max-width: $breakpoint-lg) {
+    @media(max-width: $breakpoint-xl) {
       display:block;
     }
-    position:absolute;
-    top:6.6rem;
-    right:1.5rem;
     transition: all 0.4s ease;
     border:solid 1px rgba(255,255,255,0.2) !important;
     background: no-repeat center center url("../images/burger-menu.svg");
@@ -137,19 +152,40 @@ header {
     height:40px;
     border-radius:40px;
     cursor:pointer;
+    align-self: center;
+    margin-left:.5rem;
     &:hover {
       border-color:rgba(255,255,255,0.5) !important;
     }
 }
 
-.mobile-nav__search {
+.mobile-nav__close {
   display:none;
-  @media(max-width: $breakpoint-lg) {
+  @media(max-width: $breakpoint-xl) {
     display:block;
   }
   position:absolute;
-  top:6.6rem;
-  right:4.5rem;
+  top:1.5rem;
+  right:1.5rem;
+  transition: all 0.4s ease;
+  border:solid 1px rgba(255,255,255,0.2) !important;
+  background: no-repeat center center url("../images/close.svg");
+  background-size:16px;
+  width:40px;
+  height:40px;
+  border-radius:40px;
+  cursor:pointer;
+
+  &:hover {
+    border-color:rgba(255,255,255,0.5) !important;
+  }
+}
+
+.mobile-nav__search {
+  display:none;
+  @media(max-width: $breakpoint-xl) {
+    display:block;
+  }
   transition: all 0.4s ease;
   border:solid 1px rgba(255,255,255,0.2) !important;
   background: no-repeat center center url("../images/search.svg");
@@ -158,6 +194,8 @@ header {
   height:40px;
   border-radius:40px;
   cursor:pointer;
+  margin-left:auto;
+  align-self: center;
   &:hover {
     border-color:rgba(255,255,255,0.5) !important;
   }

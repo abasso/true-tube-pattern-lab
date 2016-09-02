@@ -6,24 +6,31 @@
   }
   background:$brand-yellow;
   width:100%;
-  padding:0.8rem 0;
+  padding:.75rem 0rem;
+  @media(min-width: $breakpoint-lg) {
+    padding:.5rem 0;
+  }
   .callToAction__copy {
     font-weight:200;
-    padding-right:90px;
+    align-self: center;
+    flex-grow:2;
+    padding-right:1rem;
+    @media(min-width: $breakpoint-xl) {
+      display:flex;
+    }
   }
   .callToAction__nav {
-    position:absolute;
-    top:-5px;
-    right:13px;
+    align-self: center;
+    margin-left:auto;
+    .btn {
+      margin:.25rem 0;
+    }
   }
   .callToAction__link {
     border-bottom:dotted 1px $brand-grey;
     float:none;
     font-weight:400;
-
-    @media(min-width: $breakpoint-lg) {
-      float:right;
-    }
+    margin-left:auto;
   }
   .btn {
     &:hover {

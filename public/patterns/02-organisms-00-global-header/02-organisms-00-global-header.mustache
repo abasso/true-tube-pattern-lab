@@ -7,6 +7,9 @@
 		{{> molecules-logo-link }}
 		<!-- {{> molecules-burger-menu}} -->
 	</div>
+	<div class="mobile-nav__search"><a href="{{ url }}">{{ label }}</a></div>
+	<div class="mobile-nav__burger"><a href="{{ url }}" class="mobile-nav__burger_link">{{ label }}</a></div>
+
 	</div>
 	<div class="menu-mobile">
 	<div class="container">
@@ -15,8 +18,8 @@
 		{{> molecules-primary-nav }}
 </div>
 {{> molecules-secondary-nav }}
+<div class="mobile-nav__close"><a href="{{ url }}">{{ label }}</a></div>
+
 </div>
-<div class="mobile-nav__search"><a href="{{ url }}">{{ label }}</a></div>
-<div class="mobile-nav__burger"><a href="{{ url }}">{{ label }}</a></div>
 
 </header><!-- end c-header -->
