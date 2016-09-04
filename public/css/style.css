@@ -4283,6 +4283,10 @@ button.close {
   display: flex;
   flex-direction: column; }
 
+.block-media__description {
+  font-weight: 200;
+  font-family: Arial, sans-serif; }
+
 .hide-description .block-media__description {
   display: none; }
 
@@ -4958,6 +4962,9 @@ fieldset {
   margin: 1rem 0;
   font-size: 0.875rem;
   order: 1; }
+  .content-info p {
+    font-family: Arial, sans-serif;
+    text-align: justify; }
   .content-info h5 {
     border-top: solid 1px #eceeef;
     padding-top: .75rem;

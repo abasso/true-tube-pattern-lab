@@ -3,6 +3,10 @@
   margin:1rem 0;
   font-size:$font-size-sm;
   order:1;
+  p {
+    font-family:$font-family-body;
+    text-align:justify;
+  }
   h5 {
     border-top:solid 1px $gray-lighter;
     padding-top:.75rem;
