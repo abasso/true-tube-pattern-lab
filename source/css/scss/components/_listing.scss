@@ -22,6 +22,7 @@
 }
 
 .block-media__link {
+  display:block;
   &:hover {
     &:before {
       display:none;
@@ -39,7 +40,7 @@
 .block-media__headline {
   padding:0.875rem 0;
   border-bottom:solid 1px $gray-lighter;
-
+  margin-top:0;
 }
 
 .block-media__categories {
@@ -91,8 +92,6 @@
 }
 }
 
-
-
 .col-xl-p-left {
   @media(min-width: $breakpoint-xl) {
     padding-left:20px;
@@ -102,5 +101,28 @@
 .col-xl-p-right {
   @media(min-width: $breakpoint-xl) {
     padding-right:20px;
+  }
+}
+
+.load-more {
+  border-top:solid 1px $gray-lighter;
+  display:flex;
+  text-align:center;
+  padding:1rem;
+  a {
+    margin:0 auto;
+    border-bottom:dotted 1px $gray-lighter;
+    &:hover {
+      border-bottom: solid 1px $gray;
+    }
+    &:after {
+      content:"";
+      background:no-repeat center center url("../images/chevron-down_black.svg");
+      width:20px;
+      height:20px;
+      position:absolute;
+      right:-1.5rem;
+      top:3px;
+    }
   }
 }

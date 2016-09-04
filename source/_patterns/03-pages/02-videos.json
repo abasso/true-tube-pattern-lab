@@ -16,11 +16,6 @@
 			{
 					"label": "Interactive",
 					"url": "link.pages-interactive"
-			},
-			{
-					"label": "",
-					"url": "link.pages-interactive",
-					"class": "primary-nav__search"
 			}
 	],
     "alert" : {
@@ -111,7 +106,7 @@
 	    "sectionTitle" : "",
 	    "mediaList" : [
 			{
-				"url" : "link.pages-blog-detail",
+				"url" : "link.pages-content",
 				"imgLandscape" : {
 					"src": "../../../images/sample/grid_1.jpg",
 					"alt": "red mountains"
@@ -134,7 +129,7 @@
 				]
 			},
 			{
-				"url" : "link.pages-blog-detail",
+				"url" : "link.pages-content",
 				"imgLandscape" : {
 					"src": "../../../images/sample/grid_2.jpg",
 					"alt": "red mountains"
@@ -157,7 +152,7 @@
 				]
 			},
 			{
-				"url" : "link.pages-blog-detail",
+				"url" : "link.pages-content",
 				"imgLandscape" : {
 					"src": "../../../images/sample/grid_3.jpg",
 					"alt": "red mountains"
@@ -180,7 +175,7 @@
 				]
 			},
 			{
-				"url" : "link.pages-blog-detail",
+				"url" : "link.pages-content",
 				"imgLandscape" : {
 					"src": "../../../images/sample/grid_4.jpg",
 					"alt": "red mountains"
@@ -203,7 +198,7 @@
 				]
 			},
 			{
-				"url" : "link.pages-blog-detail",
+				"url" : "link.pages-content",
 				"imgLandscape" : {
 					"src": "../../../images/sample/grid_5.jpg",
 					"alt": "red mountains"
@@ -226,9 +221,78 @@
 				]
 			},
 			{
-				"url" : "link.pages-blog-detail",
+				"url" : "link.pages-content",
 				"imgLandscape" : {
 					"src": "../../../images/sample/grid_6.jpg",
+					"alt": "red mountains"
+				},
+				"headline" : {
+					"short" : "Charlie & Blue celebrate passover"
+				},
+				"description" : {
+					"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+				},
+				"categoryList" : [
+					{
+						"btnText": "Video",
+						"btnClass": "btn-video btn-sm"
+					},
+					{
+						"btnText": "Lesson Plan",
+						"btnClass": "btn-lesson-plan btn-sm"
+					}
+				]
+			},
+			{
+				"url" : "link.pages-content",
+				"imgLandscape" : {
+					"src": "../../../images/sample/grid_1.jpg",
+					"alt": "red mountains"
+				},
+				"headline" : {
+					"short" : "Charlie & Blue celebrate passover"
+				},
+				"description" : {
+					"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+				},
+				"categoryList" : [
+					{
+						"btnText": "Video",
+						"btnClass": "btn-video btn-sm"
+					},
+					{
+						"btnText": "Lesson Plan",
+						"btnClass": "btn-lesson-plan btn-sm"
+					}
+				]
+			},
+			{
+				"url" : "link.pages-content",
+				"imgLandscape" : {
+					"src": "../../../images/sample/grid_2.jpg",
+					"alt": "red mountains"
+				},
+				"headline" : {
+					"short" : "Charlie & Blue learn about enlightenment"
+				},
+				"description" : {
+					"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+				},
+				"categoryList" : [
+					{
+						"btnText": "Video",
+						"btnClass": "btn-video btn-sm"
+					},
+					{
+						"btnText": "Lesson Plan",
+						"btnClass": "btn-lesson-plan btn-sm"
+					}
+				]
+			},
+			{
+				"url" : "link.pages-content",
+				"imgLandscape" : {
+					"src": "../../../images/sample/grid_3.jpg",
 					"alt": "red mountains"
 				},
 				"headline" : {

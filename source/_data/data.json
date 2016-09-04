@@ -71,11 +71,6 @@
         {
             "label": "Interactive",
             "url": "link.pages-interactive"
-        },
-        {
-            "label": "",
-            "url": "link.pages-interactive",
-            "class": "primary-nav__search"
         }
     ],
     "secondaryNav" : [
@@ -272,6 +267,7 @@
         { },
         { }
     ],
+  "showGridPagination" : true,
 	"paginationList" : [
 		{
 	   "linkHref" : "#",
@@ -304,8 +300,30 @@
       "class" : "display-list"
 		}
   ],
+  "showGridType" : false,
+  "showGridSettings" : true,
+  "gridType" : [
+    {
+     "linkHref" : "#",
+     "btnText" : "Most Recent",
+     "class" : "active"
+    },
+    {
+      "linkHref" : "#",
+      "btnText" : "Most Popular"
+    },
+    {
+      "linkHref" : "#",
+      "btnText" : "Recommended for me"
+    }
+  ],
   "sectionBlock" : true,
-  "textButton" : true,
+  "loadMore": [
+    {
+      "btnClass" : "",
+      "btnText": "Load More"
+    }
+  ],  "textButton" : true,
 	"overlayMessage" : "Let's go on a hike and climb in elevation",
 	"overlayAction" : "Find a Hike",
   "filterShowHide": [
@@ -420,5 +438,64 @@
   },
   "filterSearch" : {
       "textFieldPlaceholder" : "e.g. Social studies"
+  },
+  "eventBlock": {
+    "title": "Events in June",
+    "eventList" : [
+      {
+        "date" : "5th",
+        "label" : "World Enlightenment Day"
+      },
+      {
+        "date" : "7th",
+        "label" : "Ramadan"
+      },
+      {
+        "date" : "13th",
+        "label" : "My Money Week"
+      },
+      {
+        "date" : "16th",
+        "label" : "Guru Arjan’s Martyrdom"
+      },
+      {
+        "date" : "20th",
+        "label" : "Refugee Week"
+      }
+    ],
+    "btnText" : "Full Calendar",
+    "btnClass" : "event-block__calendar",
+    "monthSelector" : [
+      {
+        "btnClass" : "active btn-sm",
+        "btnText" : ""
+      },
+      {
+        "btnClass" : "btn-sm",
+        "btnText" : ""
+      }
+    ]
+  },
+  "popularBlock": {
+    "title": "Popular Topics",
+    "eventList" : [
+      {
+        "label" : "Gang Culture (25 Items)"
+      },
+      {
+        "label" : "Sexual Equality (25 Items)"
+      },
+      {
+        "label" : "The Nature of God (12 Items)"
+      },
+      {
+        "label" : "Multiculturalism (45 Items)"
+      },
+      {
+        "label" : "The Nature of Evil (20 Items)"
+      }
+    ],
+    "btnText" : "All Topics",
+    "btnClass" : "popular-block__all"
   }
 }

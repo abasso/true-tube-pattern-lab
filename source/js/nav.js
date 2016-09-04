@@ -1,6 +1,7 @@
 // //Navigation toggle
 // var navActive = false,
 var displayList = document.querySelector(".display-list"),
+    body = document.querySelector("body");
     displayGrid = document.querySelector(".display-grid"),
     showDescription = document.querySelector(".toggle-descriptions"),
     grid = document.querySelector(".content-grid"),
@@ -8,7 +9,10 @@ var displayList = document.querySelector(".display-list"),
     filterShowHide = document.querySelector(".filterShowHide"),
     burgerMenu = document.querySelector(".mobile-nav__burger"),
     closeMenu = document.querySelector(".mobile-nav__close"),
-    mobileMenu = document.querySelector(".menu-mobile");
+    mobileMenu = document.querySelector(".menu-mobile"),
+    mobileSearch = document.querySelector(".mobile-nav__search"),
+    desktopSearch = document.querySelector(".primary-nav__search"),
+    desktopSearchInput = document.querySelector(".primary-nav__search-input");
 
 
 if (displayList) displayList.addEventListener("click", function(event){
@@ -61,13 +65,31 @@ if (burgerMenu) burgerMenu.addEventListener("click", function(event){
   if (burgerMenu.getAttribute("visible") !== "true") {
     mobileMenu.classList.add("show");
     burgerMenu.setAttribute("visible", "true");
+    body.classList.add("fixed");
   } else {
     mobileMenu.classList.remove("show");
     burgerMenu.setAttribute("visible", "");
+    body.classList.remove("fixed");
   }
+});
+
+if (mobileSearch) mobileSearch.addEventListener("click", function(event){
+    mobileMenu.classList.add("show");
+    burgerMenu.setAttribute("visible", "true");
+    body.classList.add("fixed");
+    desktopSearchInput.focus();
 });
 
 if (closeMenu) closeMenu.addEventListener("click", function(event){
     mobileMenu.classList.remove("show");
     burgerMenu.setAttribute("visible", "");
+    body.classList.remove("fixed");
+});
+
+if(desktopSearchInput) desktopSearchInput.addEventListener("focus", function() {
+  desktopSearch.classList.add("active");
+});
+
+if(desktopSearchInput) desktopSearchInput.addEventListener("blur", function() {
+  desktopSearch.classList.remove("active");
 });

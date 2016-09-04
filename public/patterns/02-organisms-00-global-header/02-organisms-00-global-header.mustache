@@ -3,11 +3,10 @@
 <header class="c-header" role="banner">
 	{{> molecules-call-to-action }}
 	<div class="container">
-		<div class="mobile-logo hidden-xl-up">
+		<div class="mobile-logo hidden-lg-up">
 		{{> molecules-logo-link }}
-		<!-- {{> molecules-burger-menu}} -->
 	</div>
-	<div class="mobile-nav__search"><a href="{{ url }}">{{ label }}</a></div>
+	<div class="mobile-nav__search"><a href="{{ url }}" class="mobile-nav__burger_search">{{ label }}</a></div>
 	<div class="mobile-nav__burger"><a href="{{ url }}" class="mobile-nav__burger_link">{{ label }}</a></div>
 
 	</div>

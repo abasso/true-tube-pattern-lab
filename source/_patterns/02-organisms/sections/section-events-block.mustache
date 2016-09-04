@@ -1,0 +1,14 @@
+{{#eventBlock}}
+  <div class="event-block">
+      <h3 class="section-title">
+        {{ title }}
+      </h3>
+      {{> organisms-event-list }}
+        <div class="month-selector">
+          {{#monthSelector}}
+            {{> atoms-text-button }}
+          {{/monthSelector}}
+        </div>
+        {{> atoms-text-button }}
+  </div>
+{{/eventBlock}}

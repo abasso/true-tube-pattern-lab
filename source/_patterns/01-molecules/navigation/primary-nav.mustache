@@ -1,9 +1,8 @@
 <nav id="nav" class="primary-nav">
-
-
-		{{# primaryNav }}
-		<div class="primary-nav__item"><a href="{{ url }}" class="primary-nav__link {{class}}">{{ label }}</a></div>
-		{{/ primaryNav }}
-
-
-</nav><!--end c-primary-nav-->
+  <div class="primary-nav__wrapper">
+    {{# primaryNav }}
+      <div class="primary-nav__item"><a href="{{ url }}" class="primary-nav__link {{class}}">{{ label }}</a></div>
+    {{/ primaryNav }}
+  </div>
+		{{>molecules-search}}
+</nav>

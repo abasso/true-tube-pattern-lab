@@ -1,27 +1,18 @@
 {{> organisms-header }}
-<main role="main">
+	<main role="main">
+		<div class="container">
+			<div class="row">
 
-	{{# hero }}
-		{{> molecules-block-hero }}
-	{{/ hero}}
-
-	<div class="l">
-		{{> organisms-tout-list }}
-	</div>
-
-	<div class="l l--two-col">
-		<div class="l-main">
-			{{# latestPosts }}
-			{{> organisms-section-media-list }}
-			{{/ latestPosts }}
-		</div><!--end .l-main-->
-
-		<div class="l-sidebar">
-			{{# featuredPeople }}
-			{{> organisms-section-media-list }}
-			{{/ featuredPeople }}
-		</div><!--end .l-sidebar-->
-
-	</div><!--end l--two-col-->
-</main>
+				<div class="col-xs-12 col-ml-12 col-xl-9 col-xl-p-right">
+					{{# latestContent }}
+						{{> organisms-section-grid-load-more }}
+					{{/ latestContent }}
+				</div>
+			<div class="col-xs-12 col-ml-12 col-xl-3 col-xl-p-left">
+				{{> organisms-section-events-block }}
+				{{> organisms-section-popular-block }}
+			</div>
+		</div>
+		</div>
+	</main>
 {{> organisms-footer }}

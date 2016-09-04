@@ -1,0 +1,19 @@
+{{> organisms-header }}
+	<main role="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-ml-12 col-xl-9 col-xl-p-right">
+					<h1 class="page-title">{{pageTitle}}</h1>
+					{{> molecules-video}}
+					{{> organisms-info}}
+					{{# relatedContent }}
+						{{> organisms-section-grid-load-more }}
+					{{/ relatedContent }}
+				</div>
+			<div class="col-xs-12 col-ml-12 col-xl-3 col-xl-p-left">
+				{{> organisms-section-events-block }}
+			</div>
+		</div>
+		</div>
+	</main>
+{{> organisms-footer }}
