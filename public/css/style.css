@@ -4925,7 +4925,8 @@ fieldset {
   padding-bottom: 56.25%;
   height: 0;
   position: relative;
-  display: flex; }
+  display: flex;
+  flex: 0 0 75%; }
   .video-js .vjs-poster {
     display: flex;
     width: 100%;
@@ -4951,6 +4952,20 @@ fieldset {
         height: 80px;
         width: 80px;
         border-radius: 80px; } }
+
+.content-info {
+  font-weight: 200;
+  margin: 1rem 0;
+  font-size: 0.875rem;
+  order: 1; }
+  .content-info h5 {
+    border-top: solid 1px #eceeef;
+    padding-top: .75rem;
+    margin-top: .75rem; }
+  .content-info a {
+    color: #E84524; }
+    .content-info a:hover {
+      color: #262625; }
 
 .modal-open {
   overflow: hidden; }

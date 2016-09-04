@@ -1,0 +1,17 @@
+.content-info {
+  font-weight:200;
+  margin:1rem 0;
+  font-size:$font-size-sm;
+  order:1;
+  h5 {
+    border-top:solid 1px $gray-lighter;
+    padding-top:.75rem;
+    margin-top:.75rem;
+  }
+  a {
+    color:$brand-red;
+    &:hover {
+      color:$brand-grey;
+    }
+  }
+}

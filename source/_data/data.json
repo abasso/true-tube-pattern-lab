@@ -497,5 +497,89 @@
     ],
     "btnText" : "All Topics",
     "btnClass" : "popular-block__all"
-  }
+  },
+  "infoDescription" : "Restorative Justice is a process in which someone who has committed a crime meets their victim to help both people come to terms with what has happened. So what would you say if you came face to face with the person who has been bullying you online?",
+  "infoAttributes" : [
+    {
+      "title" : "Main Topic",
+      "links" : [
+        {
+          "btnText" : "Bullying"
+        }
+      ]
+    },
+    {
+      "title" : "Related Topic(s)",
+      "links" : [
+        {
+          "btnText" : "Justice & Equality,"
+        },
+        {
+          "btnText" : "Moral Decisions,"
+        },
+        {
+          "btnText" : "Punishment"
+        }
+      ]
+    },
+    {
+      "title" : "Keystage(s)",
+      "links" : [
+        {
+          "btnText" : "3,"
+        },
+        {
+          "btnText" : "4"
+        }
+      ]
+    },
+    {
+      "title" : "Subject(s)",
+      "links" : [
+        {
+          "btnText" : "RE,"
+        },
+        {
+          "btnText" : "PHSE"
+        }
+      ]
+    },
+    {
+      "title" : "Genre",
+      "links" : [
+        {
+          "btnText" : "Drama"
+        }
+      ]
+    },
+    {
+      "title" : "Related Topic(s)",
+      "links" : [
+        {
+          "btnText" : "Restorative Justice,"
+        },
+        {
+          "btnText" : "Bullying,"
+        },
+        {
+          "btnText" : "Cyber Bullying,"
+        },
+        {
+          "btnText" : "Bully,"
+        },
+        {
+          "btnText" : "Crime,"
+        },
+        {
+          "btnText" : "Criminal,"
+        },
+        {
+          "btnText" : "Counselling,"
+        },
+        {
+          "btnText" : "Mediate"
+        }
+      ]
+    }
+  ]
 }

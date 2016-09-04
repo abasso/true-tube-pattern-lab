@@ -55,11 +55,9 @@ if (filterShowHide) filterShowHide.addEventListener("click", function(event){
   if (filterShowHide.getAttribute("visible") === "true") {
     filterShowHide.parentNode.classList.remove("show");
     filterShowHide.setAttribute("visible", "");
-    filterShowHide.innerHTML = "<span>Show</span>";
   } else {
     filterShowHide.parentNode.classList.add("show");
     filterShowHide.setAttribute("visible", "true");
-    filterShowHide.innerHTML = "<span>Hide</span>";
   }
 });
 
