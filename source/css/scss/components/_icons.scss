@@ -12,6 +12,27 @@
   }
 }
 
+.icon-add {
+  &:before {
+    content:"";
+    background-image: url("/images/plus.svg");
+  }
+}
+
+.icon-views {
+  &:before {
+    content:"";
+    background-image: url("/images/eye.svg");
+  }
+}
+
+.icon-posted {
+  &:before {
+    content:"";
+    background-image: url("/images/calendar.svg");
+  }
+}
+
 .icon-embed {
   &:before {
     content:"";
@@ -43,12 +64,33 @@
       position:absolute;
       right:-28px;
     }
+    &.icon-border {
+      margin-right: 35px;
+      &:before {
+        right:-35px;
+      }
+    }
   }
   &.icon-left {
     margin-left: 28px;
     &:before {
       position:absolute;
       left:-28px;
+    }
+    &.icon-border {
+      margin-left: 35px;
+      &:before {
+        left:-35px;
+      }
+    }
+  }
+  &.icon-border {
+    &:before {
+      background-size:12px;
+      border:solid 1px $gray-lighter;
+      border-radius:24px;
+      width:24px;
+      height:24px;
     }
   }
 }

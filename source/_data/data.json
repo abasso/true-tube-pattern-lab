@@ -592,6 +592,16 @@
       "infoLabel" : ""
     }
   ],
+  "videoFooterInfo" : [
+    {
+      "infoClass" : "icon-views icon-small icon-left ",
+      "infoLabel" : "415 Views"
+    },
+    {
+      "infoClass" : "",
+      "infoLabel" : "4 days ago"
+    }
+  ],
   "videoActions" : [
     {
       "btnClass" : "icon-download icon-small icon-left",
@@ -602,6 +612,10 @@
       "btnText" : "Embed"
     }
   ],
+  "buttonAddToToolbox" : {
+    "btnClass" : "icon-add icon-small icon-left icon-border",
+    "btnText" : "Add to my toolbox"
+  },
   "infoClass" : "icon-clock icon-small icon-left",
   "infoLabel" : "An info icon with label",
   "ratingStars" : [
@@ -639,5 +653,22 @@
       "btnClass" : "active",
       "btnText" : "Videos"
     }
-  ]
-}
+  ],
+  "contentMobileNav" : {
+  "selectOptions": [
+    {
+      "option" : "Videos",
+      "selected" : "selected"
+    },
+    {
+      "option" : "Lesson Plans"
+    },
+    {
+      "option" : "Assembly Scrips"
+    },
+    {
+      "option" : "Interactive"
+    }
+    ]
+    }
+  }

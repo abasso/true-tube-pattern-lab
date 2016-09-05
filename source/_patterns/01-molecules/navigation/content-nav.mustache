@@ -3,3 +3,15 @@
       {{>atoms-button}}
     {{/ contentNav }}
 </nav>
+
+<div class="input-group content-nav-mobile">
+  {{# contentMobileNav }}
+  <select id="select" class="custom-select form-control" >
+    <optgroup label="Select">
+      {{# selectOptions}}
+        <option {{selected}}>{{option}}</option>
+      {{/selectOptions}}
+    </optgroup>
+  </select>
+  {{/ contentMobileNav }}
+</div>

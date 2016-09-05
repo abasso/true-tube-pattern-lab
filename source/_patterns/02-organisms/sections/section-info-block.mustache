@@ -1,8 +1,16 @@
+
 <div class="content-info">
+  <div class="add-to-toolbox">
+    {{#buttonAddToToolbox}}
+      {{>atoms-text-button}}
+    {{/buttonAddToToolbox}}
+  </div>
   <p>
     {{infoDescription}}
   </p>
-  {{# infoAttributes }}
-    {{> molecules-info }}
-  {{/ infoAttributes}}
+  <div class="content-info-attributes">
+    {{# infoAttributes }}
+      {{> molecules-info }}
+    {{/ infoAttributes}}
+  </div>
 </div>
