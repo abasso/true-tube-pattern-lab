@@ -1,0 +1,74 @@
+.icon-clock {
+  &:before {
+    content:"";
+    background-image: url("/images/clock.svg");
+  }
+}
+
+.icon-cc {
+  &:before {
+    content:"";
+    background-image: url("/images/cc.svg");
+  }
+}
+
+.icon-embed {
+  &:before {
+    content:"";
+    background-image: url("/images/file-video.svg");
+  }
+}
+
+.icon-download {
+  &:before {
+    content:"";
+    background-image: url("/images/download.svg");
+  }
+}
+
+.icon-small {
+  &:before {
+    width:18px;
+    height:18px;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:18px;
+    top:50%;
+    margin-top:-9px;
+
+  }
+  &.icon-right {
+    margin-right: 28px;
+    &:before {
+      position:absolute;
+      right:-28px;
+    }
+  }
+  &.icon-left {
+    margin-left: 28px;
+    &:before {
+      position:absolute;
+      left:-28px;
+    }
+  }
+}
+
+.icon-large {
+  &:before {
+    width:32px;
+    height:32px;
+    background-repeat:no-repeat;
+    background-position:center center;
+    position:relative;
+    display:inline-block;
+  }
+  &.icon-right {
+    padding-right: 30px;
+    display:block;
+
+  }
+  &.icon-left {
+    padding-left: 30px;
+    display:block;
+  }
+}

@@ -1,3 +1,4 @@
+
 // //Navigation toggle
 // var navActive = false,
 var displayList = document.querySelector(".display-list"),
@@ -6,14 +7,13 @@ var displayList = document.querySelector(".display-list"),
     showDescription = document.querySelector(".toggle-descriptions"),
     grid = document.querySelector(".content-grid"),
     fieldsetLegend = document.querySelector(".collapse-toggle"),
-    filterShowHide = document.querySelector(".filterShowHide"),
+    filterShowHide = document.querySelector(".filter-show-hide"),
     burgerMenu = document.querySelector(".mobile-nav__burger"),
     closeMenu = document.querySelector(".mobile-nav__close"),
     mobileMenu = document.querySelector(".menu-mobile"),
     mobileSearch = document.querySelector(".mobile-nav__search"),
     desktopSearch = document.querySelector(".primary-nav__search"),
     desktopSearchInput = document.querySelector(".primary-nav__search-input");
-
 
 if (displayList) displayList.addEventListener("click", function(event){
 	event.preventDefault();
@@ -41,16 +41,6 @@ if (showDescription) showDescription.addEventListener("change", function(event){
   }
 });
 
-if (fieldsetLegend) fieldsetLegend.addEventListener("click", function(event){
-  if (fieldsetLegend.getAttribute("collapsed") === "true") {
-    fieldsetLegend.parentNode.parentNode.classList.remove("collapsed");
-    fieldsetLegend.setAttribute("collapsed", "");
-  } else {
-    fieldsetLegend.parentNode.parentNode.classList.add("collapsed");
-    fieldsetLegend.setAttribute("collapsed", "true");
-  }
-});
-
 if (filterShowHide) filterShowHide.addEventListener("click", function(event){
   if (filterShowHide.getAttribute("visible") === "true") {
     filterShowHide.parentNode.classList.remove("show");
@@ -58,6 +48,16 @@ if (filterShowHide) filterShowHide.addEventListener("click", function(event){
   } else {
     filterShowHide.parentNode.classList.add("show");
     filterShowHide.setAttribute("visible", "true");
+  }
+});
+
+$(".collapse-toggle").on("click", function() {
+  if($(this).attr("collapsed") === "true") {
+    $(this).parent().parent().removeClass("collapsed");
+    $(this).attr("collapsed", "false");
+  } else {
+    $(this).parent().parent().addClass("collapsed");
+    $(this).attr("collapsed", "true");
   }
 });
 

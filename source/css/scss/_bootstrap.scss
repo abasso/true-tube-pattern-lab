@@ -45,7 +45,6 @@
 @import "responsive-embed";
 @import "close";
 @import "components/listing";
-@import "components/nav";
 @import "components/header";
 @import "components/footer";
 @import "components/callToAction";
@@ -57,6 +56,10 @@
 @import "components/popularBlock";
 @import "components/video";
 @import "components/contentInfo";
+@import "components/contentNav";
+@import "components/icons";
+@import "components/info";
+@import "components/rating";
 
 // Components w/ JavaScript
 @import "modal";

@@ -328,7 +328,7 @@
 	"overlayAction" : "Find a Hike",
   "filterShowHide": [
     {
-      "btnClass" : "filterShowHide",
+      "btnClass" : "filter-show-hide",
       "btnText": "Show"
     }
   ],
@@ -580,6 +580,64 @@
           "btnText" : "Mediate"
         }
       ]
+    }
+  ],
+  "videoInfo" : [
+    {
+      "infoClass" : "icon-clock icon-small icon-left",
+      "infoLabel" : "25.45"
+    },
+    {
+      "infoClass" : "icon-cc icon-large ",
+      "infoLabel" : ""
+    }
+  ],
+  "videoActions" : [
+    {
+      "btnClass" : "icon-download icon-small icon-left",
+      "btnText" : "Download"
+    },
+    {
+      "btnClass" : "icon-embed icon-small icon-left",
+      "btnText" : "Embed"
+    }
+  ],
+  "infoClass" : "icon-clock icon-small icon-left",
+  "infoLabel" : "An info icon with label",
+  "ratingStars" : [
+    {
+      "class" : "filled"
+    },
+    {
+      "class" : "filled"
+    },
+    {
+      "class" : "filled"
+    },
+    {
+      "class" : "filled"
+    },
+    {
+      "class" : ""
+    }
+  ],
+  "ratingLabel" : "2 Votes",
+  "contentNav" : [
+    {
+      "btnClass" : "",
+      "btnText" : "Interactive"
+    },
+    {
+      "btnClass" : "",
+      "btnText" : "Assembly Scrips"
+    },
+    {
+      "btnClass" : "",
+      "btnText" : "Lesson Plans"
+    },
+    {
+      "btnClass" : "active",
+      "btnText" : "Videos"
     }
   ]
 }

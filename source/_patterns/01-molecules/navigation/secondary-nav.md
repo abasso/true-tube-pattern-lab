@@ -1,5 +1,5 @@
 ---
-title: Primary Navigation
+title: Secondary Navigation
 ---
 
 [Insert description here]
