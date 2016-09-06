@@ -5070,9 +5070,9 @@ fieldset {
       .content-header .content-nav .btn span {
         font-weight: 200;
         border-bottom: dotted 1px #818a91; }
+      .content-header .content-nav .btn.hidden {
+        display: none; }
       .content-header .content-nav .btn.active {
-        background: #E84524;
-        border-color: #E84524;
         color: white;
         box-shadow: none;
         position: relative;
@@ -5086,11 +5086,31 @@ fieldset {
             height: 0;
             border-left: 20px solid transparent;
             border-right: 20px solid transparent;
-            border-top: 20px solid #E84524;
             position: absolute;
             bottom: -10px;
             left: 50%;
             margin-left: -20px; } }
+        .content-header .content-nav .btn.active.videos {
+          background: #E84524;
+          border-color: #E84524; }
+          .content-header .content-nav .btn.active.videos:after {
+            border-top: 20px solid #E84524; }
+        .content-header .content-nav .btn.active.lesson-plans {
+          background: #FBE407;
+          border-color: #FBE407;
+          color: #262625; }
+          .content-header .content-nav .btn.active.lesson-plans:after {
+            border-top: 20px solid #FBE407; }
+        .content-header .content-nav .btn.active.assembly-plans {
+          background: #262625;
+          border-color: #262625; }
+          .content-header .content-nav .btn.active.assembly-plans:after {
+            border-top: 20px solid #262625; }
+        .content-header .content-nav .btn.active.interactive {
+          background: #4A90E2;
+          border-color: #4A90E2; }
+          .content-header .content-nav .btn.active.interactive:after {
+            border-top: 20px solid #4A90E2; }
   .content-header.visible .btn {
     display: flex; }
   .content-header .content-nav-mobile {
@@ -5148,9 +5168,9 @@ fieldset {
     position: absolute;
     right: -28px; }
   .icon-small.icon-right.icon-border {
-    margin-right: 35px; }
+    margin-right: 40px; }
     .icon-small.icon-right.icon-border:before {
-      right: -35px; }
+      right: -40px; }
 
 .icon-small.icon-left {
   margin-left: 28px; }
@@ -5158,16 +5178,17 @@ fieldset {
     position: absolute;
     left: -28px; }
   .icon-small.icon-left.icon-border {
-    margin-left: 35px; }
+    margin-left: 40px; }
     .icon-small.icon-left.icon-border:before {
-      left: -35px; }
+      left: -40px; }
 
 .icon-small.icon-border:before {
   background-size: 12px;
   border: solid 1px #eceeef;
-  border-radius: 24px;
-  width: 24px;
-  height: 24px; }
+  border-radius: 32px;
+  width: 32px;
+  height: 32px;
+  margin-top: -15px; }
 
 .icon-large:before {
   width: 32px;

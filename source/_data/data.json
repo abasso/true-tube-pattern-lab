@@ -638,19 +638,19 @@
   "ratingLabel" : "2 Votes",
   "contentNav" : [
     {
-      "btnClass" : "",
+      "btnClass" : "interactive hidden",
       "btnText" : "Interactive"
     },
     {
-      "btnClass" : "",
+      "btnClass" : "assembly-plans ",
       "btnText" : "Assembly Scrips"
     },
     {
-      "btnClass" : "",
+      "btnClass" : "lesson-plans",
       "btnText" : "Lesson Plans"
     },
     {
-      "btnClass" : "active",
+      "btnClass" : "videos active",
       "btnText" : "Videos"
     }
   ],
@@ -665,9 +665,6 @@
     },
     {
       "option" : "Assembly Scrips"
-    },
-    {
-      "option" : "Interactive"
     }
     ]
     }

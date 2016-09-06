@@ -61,15 +61,6 @@ $(".collapse-toggle").on("click", function() {
   }
 });
 
-$(".content-nav .btn:last-child").on("click", function() {
-  console.log('cats');
-  if($(this).parent().hasClass("visible")) {
-    $(this).parent().removeClass("visible");
-  } else {
-    $(this).parent().addClass("visible");
-  }
-});
-
 if (burgerMenu) burgerMenu.addEventListener("click", function(event){
   if (burgerMenu.getAttribute("visible") !== "true") {
     mobileMenu.classList.add("show");

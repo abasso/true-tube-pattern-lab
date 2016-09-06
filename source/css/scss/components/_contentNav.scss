@@ -39,9 +39,10 @@
         font-weight:200;
         border-bottom:dotted 1px $gray-light;
       }
+      &.hidden {
+        display:none;
+      }
       &.active {
-        background:$brand-red;
-        border-color:$brand-red;
         color:white;
         box-shadow:none;
         position:relative;
@@ -56,11 +57,39 @@
             height: 0;
             border-left: 20px solid transparent;
             border-right: 20px solid transparent;
-            border-top: 20px solid $brand-red;
             position:absolute;
             bottom:-10px;
             left:50%;
             margin-left:-20px;
+          }
+        }
+        &.videos {
+          background:$color-videos;
+          border-color:$color-videos;
+          &:after {
+            border-top: 20px solid $color-videos;
+          }
+        }
+        &.lesson-plans {
+          background:$color-lesson-plans;
+          border-color:$color-lesson-plans;
+          color:$brand-grey;
+          &:after {
+            border-top: 20px solid $color-lesson-plans;
+          }
+        }
+        &.assembly-plans {
+          background:$color-assembly-plans;
+          border-color:$color-assembly-plans;
+          &:after {
+            border-top: 20px solid $color-assembly-plans;
+          }
+        }
+        &.interactive {
+          background:$color-interactive;
+          border-color:$color-interactive;
+          &:after {
+            border-top: 20px solid $color-interactive;
           }
         }
       }
