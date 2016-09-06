@@ -1,0 +1,13 @@
+.tab {
+  display:none;
+  &.visible {
+    display:block;
+  }
+}
+
+.tab-lesson-plans {
+  border-top:solid 1px $gray-lightest;
+  padding-bottom:1rem;
+  margin-bottom:1rem;
+  border-bottom:solid 2px $gray-lightest;
+}

@@ -1,14 +1,107 @@
 footer {
-  padding:1rem 0;
-  background:$brand-grey;
-  margin-top:3rem;
-  color:$gray;
-  font-weight:200;
+  margin-top:1rem;
+  font-size:$font-size-sm;
+
+  .container {
+    display:flex;
+    flex-direction:column;
+    margin:2rem;
+    @media(max-width: $breakpoint-lg) {
+      margin:1rem;
+    }
+    @media(min-width: $breakpoint-xl) {
+      margin:2rem auto;
+    }
+  }
   a {
     color:white;
+    &:hover {
+      color:$brand-yellow;
+    }
   }
-  .copyright {
-    margin-top:2rem;
+  padding:1rem 0;
+  background:$brand-grey;
+  color:$gray;
+  font-weight:200;
+
+  .footer-nav-container {
+    display:flex;
+    flex-direction:column;
+    @media(min-width: $breakpoint-md) {
+      flex-direction:row;
+    }
+    .footer-nav {
+      min-width:200px;
+      display:flex;
+      flex-direction:column;
+      a {
+        color:white;
+        border-bottom:dotted 1px $gray;
+        margin:.25rem 0;
+        &:hover {
+          color:$brand-yellow;
+        }
+        @media(min-width: $breakpoint-xl) {
+          flex-direction:row;
+        }
+      }
+    }
+  }
+  .footer-address {
+    color:white;
+    @media(max-width: $breakpoint-md) {
+    border-top:solid 2px $gray;
+    padding:1rem 0;
+    margin:1rem 0 0;
+  }
+    @media(min-width: $breakpoint-md) {
+      margin-left:auto;
+      text-align:right;
+    }
+  }
+
+  .footer-info {
     font-size:$font-size-xs;
+    margin-bottom:0;
+    display:flex;
+    flex-direction:column;
+    @media(min-width: $breakpoint-md) {
+      margin-top:3rem;
+      flex-direction:row;
+      align-items: center;
+    }
+
+  }
+}
+
+.copyright {
+  @media(max-width: $breakpoint-md) {
+    order:2;
+  }
+}
+
+.footer-produced-by {
+  display:flex;
+  align-items: center;
+  align-self: baseline;
+  color:white;
+  margin-left:auto;
+  @media(max-width: $breakpoint-md) {
+    order:1;
+    width:100%;
+    border-top:solid 1px $gray;
+    border-bottom:solid 1px $gray;
+    padding:1rem 0;
+    margin-bottom:1rem;
+  }
+  a {
+    background:no-repeat bottom right url("/images/ctvc-logo.svg");
+    background-size:contain;
+    height:30px;
+    width:100px;
+    margin-left:.5rem;
+    @media(max-width: $breakpoint-lg) {
+      margin-left:auto;
+    }
   }
 }

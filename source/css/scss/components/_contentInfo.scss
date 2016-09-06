@@ -40,7 +40,6 @@
       margin-bottom:1rem;
     }
     padding:.5rem 0 1rem;
-
     font-size:$font-size-lg;
     font-weight:200;
     a {
@@ -52,7 +51,27 @@
           border-color:$brand-yellow;
         }
       }
+      &:before {
+        transition: all 0.3s ease;
+      }
+      &.added {
+        &.icon-add {
+          &:before {
+            transform:rotate(45deg);
+            width:24px;
+            height:24px;
+            top:20px;
+            left:-35px;
+          }
+          &:hover {
+            &:before {
+              background-color:$brand-red;
+              border-color:$brand-red;
+              background-image: url("/images/plus_white.svg");
+            }
+          }
+        }
+      }
     }
   }
-
 }

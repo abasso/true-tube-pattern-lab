@@ -28,6 +28,8 @@
       font-size:1rem;
       padding:.5rem 1rem;
       text-align:inherit;
+      transition: none;
+      outline:none;
       @media(min-width: $breakpoint-xl) {
         padding:.75rem 1.25rem;
       }
@@ -42,7 +44,7 @@
       &.hidden {
         display:none;
       }
-      &.active {
+      &.active, &:hover  {
         color:white;
         box-shadow:none;
         position:relative;

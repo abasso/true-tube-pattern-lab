@@ -1,5 +1,15 @@
-<nav class="c-footer-nav">
-		{{# footerNav }}
-		<div class="c-footer-nav__item"><a href="{{ url }}" class="c-footer-nav__link">{{ label }}</a></div>
-		{{/ footerNav }}
+<nav class="footer-nav">
+		{{# footerNavLeft }}
+			<div class="footer-nav__item"><a href="{{ url }}" class="footer-nav__link">{{ label }}</a></div>
+		{{/ footerNavLeft }}
+</nav><!--end c-footer-nav-->
+<nav class="footer-nav">
+		{{# footerNavMiddle }}
+			<div class="footer-nav__item"><a href="{{ url }}" class="footer-nav__link">{{ label }}</a></div>
+		{{/ footerNavMiddle }}
+</nav><!--end c-footer-nav-->
+<nav class="footer-nav">
+		{{# footerNavRight }}
+			<div class="footer-nav__item"><a href="{{ url }}" class="footer-nav__link">{{ label }}</a></div>
+		{{/ footerNavRight }}
 </nav><!--end c-footer-nav-->

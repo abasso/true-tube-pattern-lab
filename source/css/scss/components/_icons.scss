@@ -47,6 +47,32 @@
   }
 }
 
+.icon-facebook {
+  background-color:#5071A9;
+  &:before {
+    content:"";
+    background-image: url("/images/facebook.svg");
+  }
+}
+
+.icon-twitter {
+  background-color:#68C6E1;
+  &:before {
+    content:"";
+    background-image: url("/images/twitter.svg");
+  }
+}
+
+.icon-google-plus {
+  background-color:#E15B57;
+  &:before {
+    content:"";
+    background-image: url("/images/google-plus.svg");
+  }
+}
+
+
+
 .icon-small {
   &:before {
     width:18px;
@@ -85,6 +111,7 @@
     }
   }
   &.icon-border {
+    transition: all 0.8s ease;
     &:before {
       background-size:12px;
       border:solid 1px $gray-lighter;
@@ -93,6 +120,41 @@
       height:32px;
       margin-top:-15px;
 
+    }
+  }
+}
+
+.icon-social {
+  margin-left:.5rem;
+  width:32px;
+  height:32px;
+  &:before {
+    width:32px;
+    height:32px;
+    position:absolute;
+    top:0;
+    left:0;
+    background-size:16px;
+    background-position:center center;
+    background-repeat:no-repeat;
+  }
+}
+
+.icon-share {
+  background-color:$brand-grey;
+  &:before {
+    content:"";
+    background-image: url("/images/share.svg");
+  }
+  @media(max-width: $breakpoint-sm) {
+    background-color:$gray-lightest;
+    border:solid 1px $gray-lighter;
+    border-radius:$border-radius-sm;
+    color:$brand-grey;
+    &:before {
+      background-image: url("/images/share_black.svg");
+      background-position:8px;
+      background-size:12px;
     }
   }
 }

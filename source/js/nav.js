@@ -61,6 +61,10 @@ $(".collapse-toggle").on("click", function() {
   }
 });
 
+$(".add-to-toolbox").on("click", function() {
+  $(this).addClass("added").children("span").html("Remove from My Toolbox")
+});
+
 if (burgerMenu) burgerMenu.addEventListener("click", function(event){
   if (burgerMenu.getAttribute("visible") !== "true") {
     mobileMenu.classList.add("show");

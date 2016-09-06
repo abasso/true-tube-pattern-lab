@@ -52,13 +52,31 @@ if (filterShowHide) filterShowHide.addEventListener("click", function(event){
 });
 
 $(".collapse-toggle").on("click", function() {
-  if($(this).attr("collapsed") === "true") {
+  if ($(this).attr("collapsed") === "true") {
     $(this).parent().parent().removeClass("collapsed");
     $(this).attr("collapsed", "false");
   } else {
     $(this).parent().parent().addClass("collapsed");
     $(this).attr("collapsed", "true");
   }
+});
+
+$(".add-to-toolbox a").on("click", function() {
+  if ($(this).hasClass("added")) {
+    $(this).removeClass("added").html("Add to My Toolbox");
+  } else {
+    $(this).addClass("added").html("Remove from My Toolbox")
+  }
+});
+
+$(".content-nav .btn").on("click", function() {
+  let cats = $(this).attr("class");
+  cats = cats.split(" ")[1];
+  console.log(cats);
+  $(".tab").removeClass("visible");
+  $(".tab-" + cats).addClass("visible");
+  $(".content-nav .btn").removeClass("active");
+  $(this).addClass("active");
 });
 
 if (burgerMenu) burgerMenu.addEventListener("click", function(event){

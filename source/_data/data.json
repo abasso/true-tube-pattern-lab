@@ -111,7 +111,49 @@
             "url": "link.pages-interactive"
         }
     ],
-    "footerNav" : [
+    "footerNavLeft" : [
+        {
+            "label": "About Us",
+            "url": "link.pages-about"
+        },
+        {
+            "label": "Blog",
+            "url": "link.pages-blog-index"
+        },
+        {
+            "label": "Support",
+            "url": "link.pages-login"
+        }
+    ],
+    "footerNavMiddle" : [
+        {
+            "label": "Terms & Conditions",
+            "url": "link.pages-about"
+        },
+        {
+            "label": "Meet the Team",
+            "url": "link.pages-blog-index"
+        },
+        {
+            "label": "True Tube API",
+            "url": "link.pages-contact"
+        }
+    ],
+    "footerNavRight" : [
+        {
+            "label": "Case Studies",
+            "url": "link.pages-about"
+        },
+        {
+            "label": "Educational Advertisers",
+            "url": "link.pages-blog-index"
+        },
+        {
+            "label": "Awards",
+            "url": "link.pages-contact"
+        }
+    ],
+    "footerAddress" : [
         {
             "label": "About",
             "url": "link.pages-about"
@@ -602,6 +644,25 @@
       "infoLabel" : "4 days ago"
     }
   ],
+  "videoShareTitle" : "Share",
+  "videoShare" : [
+    {
+      "btnText" : "",
+      "btnClass" : "icon-facebook hidden-xs-down icon-social"
+    },
+    {
+      "btnText" : "",
+      "btnClass" : "icon-twitter hidden-xs-down icon-social"
+    },
+    {
+      "btnText" : "",
+      "btnClass" : "icon-google-plus hidden-xs-down icon-social"
+    },
+    {
+      "btnText" : "",
+      "btnClass" : "icon-share icon-social"
+    }
+  ],
   "videoActions" : [
     {
       "btnClass" : "icon-download icon-small icon-left",
@@ -643,7 +704,7 @@
     },
     {
       "btnClass" : "assembly-plans ",
-      "btnText" : "Assembly Scrips"
+      "btnText" : "Assembly Scripts"
     },
     {
       "btnClass" : "lesson-plans",
@@ -651,20 +712,20 @@
     },
     {
       "btnClass" : "videos active",
-      "btnText" : "Videos"
+      "btnText" : "Video"
     }
   ],
   "contentMobileNav" : {
   "selectOptions": [
     {
-      "option" : "Videos",
+      "option" : "Video",
       "selected" : "selected"
     },
     {
       "option" : "Lesson Plans"
     },
     {
-      "option" : "Assembly Scrips"
+      "option" : "Assembly Scripts"
     }
     ]
     }
