@@ -1,10 +1,12 @@
-<div class="callToAction">
+<div class="call-to-action">
   <div class="container">
-	<div class="callToAction__copy">{{ callToActionMessage }}
-    <a href="#" class="callToAction__link">{{ callToActionLink}}</a>
+	<div class="call-to-action-copy">{{ callToActionMessage }}
+    {{#callToActionLink}}
+    {{> atoms-text-button}}
+    {{/callToActionLink}}
   </div>
-  <div class="callToAction__nav">
-  <button href="#" class="btn btn-login">{{ loginText}}</button>
+  <div class="call-to-action-nav">
+  <button href="#" class="btn btn-login" data-toggle="modal" data-target="#modalLogin">{{ loginText}}</button>
 </div>
 </div>
 </div>

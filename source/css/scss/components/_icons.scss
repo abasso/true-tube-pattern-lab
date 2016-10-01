@@ -19,6 +19,13 @@
   }
 }
 
+.icon-close {
+  &:before {
+    content:"";
+    background-image: url("/images/close.svg");
+  }
+}
+
 .icon-views {
   &:before {
     content:"";

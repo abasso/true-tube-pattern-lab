@@ -1,4 +1,4 @@
-.callToAction {
+.call-to-action {
   font-size:$font-size-xs;
 
   @media(min-width: $breakpoint-sm) {
@@ -10,7 +10,7 @@
   @media(min-width: $breakpoint-lg) {
     padding:.5rem 0;
   }
-  .callToAction__copy {
+  .call-to-action-copy {
     font-weight:200;
     align-self: center;
     flex-grow:2;
@@ -19,14 +19,14 @@
       display:flex;
     }
   }
-  .callToAction__nav {
+  .call-to-action-nav {
     align-self: center;
     margin-left:auto;
     .btn {
       margin:.25rem 0;
     }
   }
-  .callToAction__link {
+  .call-to-action-link {
     border-bottom:dotted 1px $brand-grey;
     float:none;
     font-weight:400;

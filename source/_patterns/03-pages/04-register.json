@@ -1,5 +1,5 @@
 {
-	"pageTitle" : "The Formation Of The Khalsa",
+	"pageTitle" : "Why Register?",
 	"relatedContent" : {
 
 		"showGridType" : false,
@@ -79,5 +79,13 @@
 	"showGridType" : false,
 	"showGridSettings" : false,
 	"textButton" : false
-	}
+},
+"actionList" : [
+		{
+			"btnClass" : "icon-download icon-small icon-left",
+      "btnText" : "Download"
+		}
+	],
+	"modalDemo" : false
+
 }

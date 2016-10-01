@@ -70,11 +70,10 @@ $(".add-to-toolbox a").on("click", function() {
 });
 
 $(".content-nav .btn").on("click", function() {
-  let cats = $(this).attr("class");
-  cats = cats.split(" ")[1];
-  console.log(cats);
+  var tabName = $(this).attr("class");
+  tabName = tabName.split(" ")[1];
   $(".tab").removeClass("visible");
-  $(".tab-" + cats).addClass("visible");
+  $(".tab-" + tabName).addClass("visible");
   $(".content-nav .btn").removeClass("active");
   $(this).addClass("active");
 });

@@ -7,6 +7,7 @@
     "pageTitle": "Page Title",
     "htmlClass": "pl",
     "bodyClass": "body",
+    "modalTitle": "Modal",
     "btnText" : "Button",
     "progress" : true,
     "max" : "100",
@@ -52,7 +53,13 @@
         "long" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     "callToActionMessage" : "Videos, Lesson Plans, Assemblies and Interactive Presentations for RE, PSHE & Citizenship",
-    "callToActionLink" : "Register for Free",
+    "callToActionLink" : [
+      {
+        "btnText":  "Register for Free",
+        "btnClass": "call-to-action-link",
+        "linkHref": "link.pages-register"
+      }
+    ],
     "loginText" : "Login",
     "number" : "12",
     "primaryNav" : [
@@ -699,7 +706,7 @@
   "ratingLabel" : "2 Votes",
   "contentNav" : [
     {
-      "btnClass" : "interactive hidden",
+      "btnClass" : "interactive ",
       "btnText" : "Interactive"
     },
     {
@@ -728,5 +735,42 @@
       "option" : "Assembly Scripts"
     }
     ]
-    }
+  },
+  "modalDemo" : true,
+  "modalLogin" : {
+    "modalClass" : "modal-login",
+    "modalId" : "modalLogin",
+    "formElements" : {
+      "field" : [
+        {
+          "label" : "Email",
+          "placeholder" : "Enter your email "
+        },
+        {
+          "label" : "Password",
+          "placeholder" : "Enter your password"
+        }
+      ]
+    },
+    "modalBodyLink": [
+			{
+				"btnClass": "",
+				"btnText": "Forgotten your password?"
+			}
+		],
+		"modalTitle" : "Login",
+		"modalFooterButton": [
+			{
+				"btnClass": "btn btn-primary btn-lg",
+				"btnText": "Login"
+			}
+		],
+		"modalFooterLink": [
+			{
+				"btnClass": "",
+				"btnText": "Don't have an account? Register for free here"
+			}
+		]
+  }
+
   }

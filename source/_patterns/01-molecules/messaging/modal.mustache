@@ -1,0 +1,35 @@
+
+<!-- Button trigger modal -->
+{{#modalDemo}}
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+{{/modalDemo}}
+
+<!-- Modal -->
+<div class="modal fade {{modalClass}}" id="{{modalId}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">{{modalTitle}}</h2>
+        <button type="button" class="close icon-close icon-small icon-right" data-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        {{#formElements}}
+        {{> molecules-field}}
+        {{/formElements}}
+        {{#modalBodyLink}}
+          {{>atoms-text-button}}
+        {{/modalBodyLink}}
+      </div>
+      <div class="modal-footer">
+        {{#modalFooterButton}}
+          {{>atoms-button}}
+        {{/modalFooterButton}}
+        {{#modalFooterLink}}
+          {{>atoms-text-button}}
+        {{/modalFooterLink}}
+      </div>
+    </div>
+  </div>
+</div>

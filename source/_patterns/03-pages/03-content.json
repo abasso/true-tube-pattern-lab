@@ -1,0 +1,91 @@
+{
+	"pageTitle" : "The Formation Of The Khalsa",
+	"relatedContent" : {
+
+		"showGridType" : false,
+		"showGridPagination": false,
+		"sectionTitle" : "Related",
+		"mediaList" : [
+		{
+			"url" : "link.pages-blog-detail",
+			"imgLandscape" : {
+				"src": "../../../images/sample/grid_1.jpg",
+				"alt": "red mountains"
+			},
+			"headline" : {
+				"short" : "Charlie & Blue celebrate passover"
+			},
+			"description" : {
+				"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+			},
+			"categoryList" : [
+				{
+					"btnText": "Video",
+					"btnClass": "btn-video btn-sm"
+				},
+				{
+					"btnText": "Lesson Plan",
+					"btnClass": "btn-lesson-plan btn-sm"
+				}
+			]
+		},
+		{
+			"url" : "link.pages-blog-detail",
+			"imgLandscape" : {
+				"src": "../../../images/sample/grid_2.jpg",
+				"alt": "red mountains"
+			},
+			"headline" : {
+				"short" : "Charlie & Blue learn about enlightenment"
+			},
+			"description" : {
+				"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+			},
+			"categoryList" : [
+				{
+					"btnText": "Video",
+					"btnClass": "btn-video btn-sm"
+				},
+				{
+					"btnText": "Lesson Plan",
+					"btnClass": "btn-lesson-plan btn-sm"
+				}
+			]
+		},
+		{
+			"url" : "link.pages-blog-detail",
+			"imgLandscape" : {
+				"src": "../../../images/sample/grid_3.jpg",
+				"alt": "red mountains"
+			},
+			"headline" : {
+				"short" : "Charlie & Blue celebrate passover"
+			},
+			"description" : {
+				"medium" : "Charlie and her favourite soft toy (and best friend) Blue visit a Jewish neighbour called Rachel to find out what Jews celebrate at the festival of Passover, and how the food they eat helps them remember important things that happened in the past."
+			},
+			"categoryList" : [
+				{
+					"btnText": "Video",
+					"btnClass": "btn-video btn-sm"
+				},
+				{
+					"btnText": "Lesson Plan",
+					"btnClass": "btn-lesson-plan btn-sm"
+				}
+			]
+		}
+	],
+	"showGridType" : false,
+	"showGridSettings" : false,
+	"textButton" : false
+},
+"actionList" : [
+		{
+			"btnClass" : "icon-download icon-small icon-left",
+      "btnText" : "Download"
+		}
+	],
+	"modalDemo" : false
+
+}

@@ -364,5 +364,7 @@
 
 			}
 		]
-	}
+	},
+	"modalDemo" : false
+
 }
