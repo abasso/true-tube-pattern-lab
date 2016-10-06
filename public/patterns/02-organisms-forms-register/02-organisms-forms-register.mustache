@@ -1,0 +1,53 @@
+{{# registerForm}}
+  <div class="register">
+    <h1>Register for Free</h1>
+
+  <form method="post" action="{{ link.pages-videos }}">
+    <div class="form-group">
+      {{#registerType}}
+        {{>atoms-radio-button}}
+      {{/registerType}}
+    </div>
+    <div class="form-group">
+      {{#registerEmail}}
+        {{>molecules-field}}
+      {{/registerEmail}}
+    </div>
+    <div class="form-group">
+      {{#registerFirstName}}
+        {{>molecules-field}}
+      {{/registerFirstName}}
+    </div>
+    <div class="form-group">
+      {{#registerLastName}}
+        {{>molecules-field}}
+      {{/registerLastName}}
+    </div>
+
+    <div class="form-group">
+      {{#registerSchool}}
+        {{>molecules-field}}
+      {{/registerSchool}}
+    </div>
+    <div class="form-group">
+      {{#registerPassword}}
+        {{>molecules-field}}
+      {{/registerPassword}}
+    </div>
+
+    <div class="form-group">
+      {{#registerTerms}}
+        {{>molecules-checkbox}}
+      {{/registerTerms}}
+    </div>
+    <div class="form-group flex flex-center">
+    {{#registerSubmit}}
+      {{>atoms-button}}
+    {{/registerSubmit}}
+    {{#registerLogin}}
+      {{>atoms-text-button}}
+    {{/registerLogin}}
+  </div>
+  </form><!--end c-form--stacked-->
+  </div>
+{{/ registerForm}}

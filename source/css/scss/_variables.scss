@@ -134,7 +134,7 @@ $link-hover-decoration: none !default;
 $grid-breakpoints: (
   xs: 0,
   sm: 544px,
-  md: 768px,
+  md: 767px,
   lg: 992px,
   xl: 1200px
 ) !default;
@@ -142,7 +142,7 @@ $grid-breakpoints: (
 
 $breakpoint-xs: 0;
 $breakpoint-sm: 544px;
-$breakpoint-md: 768px;
+$breakpoint-md: 767px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
@@ -365,7 +365,7 @@ $input-border-focus:             #66afe9 !default;
 $input-box-shadow-focus:         rgba(102,175,233,.6) !default;
 $input-color-focus:              $input-color;
 
-$input-color-placeholder:        #999 !default;
+$input-color-placeholder:        $brand-grey !default;
 
 $input-padding-x-sm:             .5rem !default;
 $input-padding-y-sm:             .25rem !default;

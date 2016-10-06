@@ -60,6 +60,13 @@ $(".collapse-toggle").on("click", function() {
     $(this).attr("collapsed", "true");
   }
 });
+// $(".register-confirm label").off().on("click", function() {
+//   if($(".register-confirm-checkbox").checked) {
+//       $(".btn-register").removeClass("disabled");
+//   } else {
+//     $(".btn-register").addClass("disabled");
+//   }
+// });
 
 $(".add-to-toolbox a").on("click", function() {
   if ($(this).hasClass("added")) {

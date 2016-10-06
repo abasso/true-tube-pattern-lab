@@ -50,3 +50,23 @@ fieldset {
     color:$gray;
   }
 }
+
+
+// input:required:invalid, input:focus:invalid {
+//   background:no-repeat 99% center url("../../images/error.svg");
+//   background-size:20px 20px;
+// }
+
+input {
+  &:required {
+    &:valid {
+      background:no-repeat 99% center url("../../images/correct.svg");
+      background-size:20px 20px;
+    }
+  }
+  &:valid {
+    background:no-repeat 99% center url("../../images/correct.svg");
+    background-size:20px 20px;
+  }
+
+}

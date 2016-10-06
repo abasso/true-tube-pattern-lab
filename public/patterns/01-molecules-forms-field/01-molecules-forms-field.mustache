@@ -1,10 +1,8 @@
-{{# field }}
 <div class="form-group">
-	<label for="{{ id }}" class="c-field__label">{{ label }}</label>
-	<input class="form-control {{ class }}" id="{{ id }}" type="{{ type }}" placeholder="{{ placeholder }}" value="{{ value }}" />
+	{{# label}}<label for="{{ id }}" class="c-field__label">{{ label }}</label>{{/label}}
+	<input class="form-control {{ class }}" id="{{ id }}" type="{{ type }}" placeholder="{{ placeholder }}" value="{{ value }}" {{ required }} />
 	{{# fieldNote }}
 		<span class="c-field__note">{{{ fieldNote }}}</span>
 	{{/ fieldNote }}
 
-</div><!--end c-field-->
-{{/ field }}
+</div>

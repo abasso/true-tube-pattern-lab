@@ -4,10 +4,11 @@
     <title>True Tube</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width" />
-    
-    <link rel="stylesheet" href="../../css/style.css?1474986171562" media="all" />
-    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1474986171562" media="all" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css"/>
+
+    <link rel="stylesheet" href="../../css/style.css?1475794234240" media="all" />
+    <link rel="stylesheet" href="../../css/pattern-scaffolding.css?1475794234240" media="all" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
     <!-- never cache patterns -->
 <meta http-equiv="cache-control" content="max-age=0" />
@@ -16,14 +17,13 @@
 <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 <meta http-equiv="pragma" content="no-cache" />
 
-<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1474986171562" media="all">
-<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1474986171562" media="all" />
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1475794234240" media="all">
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1475794234240" media="all" />
 
     <!-- End Pattern Lab -->
-  
+
   </head>
   <body class="body">
-    
 
 
 <header class="c-header" role="banner">
@@ -99,7 +99,78 @@
 	<main role="main">
 		<div class="container">
 			<div class="row">
+				<div class="col-xs-12 col-ml-12 col-xl-12 m-t-1">
+				<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="">
+                <picture>
+                <source srcset="/images/carousel/carousel_1.jpg" media="(min-width: 1024px)">
+                <source srcset="/images/carousel/carousel_1_med.jpg" media="(min-width: 769px)">
+                  <source srcset="/images/carousel/carousel_1_small.jpg" media="(min-width: 0px)">
+                <img srcset="examples/images/art-medium.jpg" alt="…">
+              </picture>
+              <h2 class="display-4">
+                <a href="">
+                  <span>New Video:</span> Awkward
+                </a>
+              </h2>
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <picture>
+                <source srcset="/images/carousel/carousel_2.jpg" media="(min-width: 1024px)">
+                <source srcset="/images/carousel/carousel_2_med.jpg" media="(min-width: 769px)">
+                  <source srcset="/images/carousel/carousel_2_small.jpg" media="(min-width: 0px)">
+                <img srcset="examples/images/art-medium.jpg" alt="…">
+              </picture>
+              <h2 class="display-4">
+                <a href="">
+                  <span>New Video:</span> Freedom vs Security
+                </a>
+              </h2>
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <picture>
+                <source srcset="/images/carousel/carousel_3.jpg" media="(min-width: 1024px)">
+                <source srcset="/images/carousel/carousel_3_med.jpg" media="(min-width: 769px)">
+                  <source srcset="/images/carousel/carousel_3_small.jpg" media="(min-width: 0px)">
+                <img srcset="examples/images/art-medium.jpg" alt="…">
+              </picture>
+              <h2 class="display-4">
+                <a href="">
+                  <span>New Video:</span> I Know What I Want
+                </a>
+              </h2>
+            </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="">
+                <picture>
+                <source srcset="/images/carousel/carousel_4.jpg" media="(min-width: 1024px)">
+                <source srcset="/images/carousel/carousel_4_med.jpg" media="(min-width: 769px)">
+                  <source srcset="/images/carousel/carousel_4_small.jpg" media="(min-width: 0px)">
+                <img srcset="examples/images/art-medium.jpg" alt="…">
+              </picture>
+              <h2 class="display-4">
+                <a href="">
+                  <span>New Lesson Plan:</span> The Vihara
+                </a>
+              </h2>
+            </a>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+    </div>
 
+			</div>
 				<div class="col-xs-12 col-ml-12 col-xl-9 col-xl-p-right">
 
 	<div class="grid-nav">
@@ -129,7 +200,7 @@
 		<div class="display-group">
 	<div class="input-group">
 		<div class="form-inline">
-<div class="form-group">
+<div class="form-group ">
 <label class="custom-control custom-checkbox">
   <input type="checkbox" class="custom-control-input toggle-descriptions" checked />
   <div class="custom-control-indicator"></div>
@@ -399,16 +470,17 @@
         <button type="button" class="close icon-close icon-small icon-right" data-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-<div class="form-group">
-	<label for="" class="c-field__label">Email</label>
-	<input class="form-control " id="" type="" placeholder="Enter your email " value="" />
+        <div class="form-group">
+	
+	<input class="form-control " id="" type="email" placeholder="Email" value="" required />
 
-</div><!--end c-field-->
-<div class="form-group">
-	<label for="" class="c-field__label">Password</label>
-	<input class="form-control " id="" type="" placeholder="Enter your password" value="" />
+</div>
 
-</div><!--end c-field-->
+        <div class="form-group">
+	
+	<input class="form-control " id="" type="password" placeholder="Password" value="" required />
+
+</div>
 
           <a href="" class="">Forgotten your password?</a>
 
@@ -428,7 +500,7 @@
 
   <!--DO NOT REMOVE-->
   <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
-  {"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"organisms-header","lineagePath":"../../patterns/02-organisms-00-global-header/02-organisms-00-global-header.html"},{"lineagePattern":"organisms-section-grid-load-more","lineagePath":"../../patterns/02-organisms-sections-section-grid-load-more/02-organisms-sections-section-grid-load-more.html"},{"lineagePattern":"organisms-section-events-block","lineagePath":"../../patterns/02-organisms-sections-section-events-block/02-organisms-sections-section-events-block.html"},{"lineagePattern":"organisms-section-popular-block","lineagePath":"../../patterns/02-organisms-sections-section-popular-block/02-organisms-sections-section-popular-block.html"},{"lineagePattern":"organisms-footer","lineagePath":"../../patterns/02-organisms-00-global-footer/02-organisms-00-global-footer.html"}],"lineage":[{"lineagePattern":"organisms-header","lineagePath":"../../patterns/02-organisms-00-global-header/02-organisms-00-global-header.html"},{"lineagePattern":"organisms-section-grid-load-more","lineagePath":"../../patterns/02-organisms-sections-section-grid-load-more/02-organisms-sections-section-grid-load-more.html"},{"lineagePattern":"organisms-section-events-block","lineagePath":"../../patterns/02-organisms-sections-section-events-block/02-organisms-sections-section-events-block.html"},{"lineagePattern":"organisms-section-popular-block","lineagePath":"../../patterns/02-organisms-sections-section-popular-block/02-organisms-sections-section-popular-block.html"},{"lineagePattern":"organisms-footer","lineagePath":"../../patterns/02-organisms-00-global-footer/02-organisms-00-global-footer.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"pages"},"patternExtension":"mustache","patternName":"Homepage","patternPartial":"pages-homepage","patternState":"","extraOutput":{}}
+  {"cssEnabled":false,"patternLineageExists":true,"patternLineages":[{"lineagePattern":"organisms-header","lineagePath":"../../patterns/02-organisms-00-global-header/02-organisms-00-global-header.html"},{"lineagePattern":"organisms-carousel","lineagePath":"../../patterns/02-organisms-carousel-carousel/02-organisms-carousel-carousel.html"},{"lineagePattern":"organisms-section-grid-load-more","lineagePath":"../../patterns/02-organisms-sections-section-grid-load-more/02-organisms-sections-section-grid-load-more.html"},{"lineagePattern":"organisms-section-events-block","lineagePath":"../../patterns/02-organisms-sections-section-events-block/02-organisms-sections-section-events-block.html"},{"lineagePattern":"organisms-section-popular-block","lineagePath":"../../patterns/02-organisms-sections-section-popular-block/02-organisms-sections-section-popular-block.html"},{"lineagePattern":"organisms-footer","lineagePath":"../../patterns/02-organisms-00-global-footer/02-organisms-00-global-footer.html"}],"lineage":[{"lineagePattern":"organisms-header","lineagePath":"../../patterns/02-organisms-00-global-header/02-organisms-00-global-header.html"},{"lineagePattern":"organisms-carousel","lineagePath":"../../patterns/02-organisms-carousel-carousel/02-organisms-carousel-carousel.html"},{"lineagePattern":"organisms-section-grid-load-more","lineagePath":"../../patterns/02-organisms-sections-section-grid-load-more/02-organisms-sections-section-grid-load-more.html"},{"lineagePattern":"organisms-section-events-block","lineagePath":"../../patterns/02-organisms-sections-section-events-block/02-organisms-sections-section-events-block.html"},{"lineagePattern":"organisms-section-popular-block","lineagePath":"../../patterns/02-organisms-sections-section-popular-block/02-organisms-sections-section-popular-block.html"},{"lineagePattern":"organisms-footer","lineagePath":"../../patterns/02-organisms-00-global-footer/02-organisms-00-global-footer.html"}],"patternLineageRExists":false,"patternLineagesR":[],"lineageR":[],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"pages"},"patternExtension":"mustache","patternName":"Homepage","patternPartial":"pages-homepage","patternState":"","extraOutput":{}}
 </script>
 
 <script>
@@ -464,10 +536,10 @@
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1474986171562">
+<script id="pl-js-polyfill-insert-1475794234240">
   (function() {
     if (self != top) {
-      var cb = '1474986171562';
+      var cb = '1475794234240';
       var js = [];
       if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
         js.push('styleguide/bower_components/classList.min.js');
@@ -477,10 +549,10 @@
   })();
 </script>
 
-<script id="pl-js-insert-1474986171562">
+<script id="pl-js-insert-1475794234240">
   (function() {
     if (self != top) {
-      var cb = '1474986171562';
+      var cb = '1475794234240';
       var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
       scriptLoader.run(js,cb,'pl-js-insert');
     }
@@ -492,5 +564,8 @@
   <script type="text/javascript" src="/js/nav.js"></script>
   <script type="text/javascript" src="/js/progress.js"></script>
   <script type="text/javascript" src="/js/overlay.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
+  <script type="text/javascript" src="/js/carousel.js"></script>
+  <script type="text/javascript" src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js"></script>
   </body>
 </html>

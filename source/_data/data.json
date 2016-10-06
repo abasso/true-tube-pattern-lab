@@ -9,6 +9,7 @@
     "bodyClass": "body",
     "modalTitle": "Modal",
     "btnText" : "Button",
+    "radioButtonLabel" : "Radio button",
     "progress" : true,
     "max" : "100",
     "time": "5:32",
@@ -270,35 +271,6 @@
       "btnClass": "btn-assembly-plan"
     }
   ],
-    "featuredPeople" : {
-        "mediaList": [
-            {
-                "styleModifier" : "small"
-            },
-            {
-                "styleModifier" : "small"
-            },
-            {
-                "styleModifier" : "small"
-            }
-        ],
-        "pagination" : false
-    },
-    "featuredHikes" : {
-        "mediaList": [
-            {
-                "styleModifier" : "small"
-            },
-            {
-                "styleModifier" : "small"
-            },
-            {
-                "styleModifier" : "small"
-            }
-        ],
-        "pagination" : false
-    },
-
     "toutList": [
         { },
         { },
@@ -740,18 +712,18 @@
   "modalLogin" : {
     "modalClass" : "modal-login",
     "modalId" : "modalLogin",
-    "formElements" : {
-      "field" : [
+    "formElements" : [
         {
-          "label" : "Email",
-          "placeholder" : "Enter your email "
+          "placeholder" : "Email",
+          "required" : "required",
+          "type" : "email"
         },
         {
-          "label" : "Password",
-          "placeholder" : "Enter your password"
+          "placeholder" : "Password",
+          "required" : "required",
+          "type" : "password"
         }
-      ]
-    },
+      ],
     "modalBodyLink": [
 			{
 				"btnClass": "",
@@ -771,6 +743,65 @@
 				"btnText": "Don't have an account? Register for free here"
 			}
 		]
+  },
+  "registerForm" : {
+    "registerType" : [
+      {
+        "radioButtonLabel": "Student",
+        "radioId": "registerType",
+        "radioName": "registerType",
+        "radioChecked": "checked"
+      },
+      {
+        "radioButtonLabel": "Teacher",
+        "radioId": "registerType",
+        "radioName": "registerType",
+        "radioChecked": false
+      }
+    ],
+    "registerFirstName" : [
+      {
+        "placeholder" : "First Name",
+        "required": "required"
+      }
+    ],
+    "registerLastName" : {
+      "placeholder" : "Last Name",
+      "required": "required"
+    },
+    "registerSchool" : {
+      "placeholder" : "School",
+      "required": "required"
+    },
+    "registerEmail" : {
+      "placeholder" : "Email",
+      "type": "email",
+      "required": "required"
+    },
+    "registerPassword" : {
+      "placeholder" : "Password",
+      "type": "password",
+      "required": "required"
+    },
+    "registerTerms" : {
+      "checkbox": [
+        {
+          "css": "register-confirm-checkbox",
+          "checkboxContainer" : "register-confirm",
+          "label": "By checking this box you are agreeing to the <a href='#'>terms and conditions</a> of this site"
+        }
+      ]
+    },
+    "registerSubmit" : {
+      "btnText" : "Register",
+      "btnClass" : "btn btn-primary btn-lg btn-register"
+    },
+    "registerLogin": [
+      {
+        "btnClass": "",
+        "btnText": "Already Registered? Login here"
+      }
+    ]
   }
 
   }
