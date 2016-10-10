@@ -119,6 +119,20 @@
       "url": "link.pages-video"
     }
   ],
+  "accessibilityNav" : [
+    {
+      "btnText": "Dyslexia Font",
+      "btnClass": "btn-dyslexia"
+    },
+    {
+      "btnText": "Smaller Font -",
+      "btnClass": "btn-font-smaller"
+    },
+    {
+      "btnText": "Bigger Font +",
+      "btnClass": "btn-font-bigger"
+    }
+  ],
   "footerNavLeft" : [
     {
       "label": "About Us",

@@ -13,7 +13,8 @@ var displayList = document.querySelector(".display-list"),
     mobileMenu = document.querySelector(".menu-mobile"),
     mobileSearch = document.querySelector(".mobile-nav__search"),
     desktopSearch = document.querySelector(".primary-nav__search"),
-    desktopSearchInput = document.querySelector(".primary-nav__search-input");
+    desktopSearchInput = document.querySelector(".primary-nav__search-input"),
+    fontSize = 16;
 
 if (displayList) displayList.addEventListener("click", function(event){
 	event.preventDefault();
@@ -59,6 +60,22 @@ $(".collapse-toggle").on("click", function() {
     $(this).parent().parent().addClass("collapsed");
     $(this).attr("collapsed", "true");
   }
+});
+
+$(".btn-dyslexia").on("click", function() {
+  if ($('body').hasClass("dyslexia")) {
+      $('body').removeClass("dyslexia");
+  } else {
+    $('body').addClass("dyslexia");
+  }
+});
+
+$(".btn-font-smaller").on("click", function() {
+  $('html').removeAttr('style').css("font-size", (fontSize--) + 'px');
+});
+
+$(".btn-font-bigger").on("click", function() {
+  $('html').removeAttr('style').css("font-size", (fontSize++) + 'px');
 });
 // $(".register-confirm label").off().on("click", function() {
 //   if($(".register-confirm-checkbox").checked) {

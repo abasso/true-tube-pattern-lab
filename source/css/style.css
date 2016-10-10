@@ -5627,6 +5627,19 @@ p a {
   background: #FBE407;
   border-color: #FBE407; }
 
+.accessibility-nav {
+  text-align: right; }
+  .accessibility-nav .btn-dyslexia {
+    border-right: solid 1px #f7f7f9;
+    padding-right: 1rem;
+    margin-right: 1rem; }
+  .accessibility-nav .btn-font-smaller {
+    font-size: 0.875rem;
+    margin-right: 1rem; }
+
+.dyslexia {
+  font-family: "opendyslexic" !important; }
+
 .modal-open {
   overflow: hidden; }
 
