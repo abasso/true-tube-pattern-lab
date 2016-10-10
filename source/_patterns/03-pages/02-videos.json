@@ -83,7 +83,8 @@
 			"checkbox" : {
 				"label" : "Show Descriptions",
 				"css" : "toggle-descriptions",
-				"checked" : "checked"
+				"checked" : "checked",
+				"customMarkup" : "data-toggle='tooltip' title='Show or hide descriptions'"
 			},
 	    "sectionTitle" : "",
 	    "mediaList" : [
