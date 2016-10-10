@@ -1,23 +1,5 @@
 {
 	"pageTitle" : "Videos",
-	"primaryNav" : [
-			{
-					"label": "Videos",
-					"url": "link.pages-videos"
-			},
-			{
-					"label": "Lesson Plans",
-					"url": "link.pages-lesson-plans"
-			},
-			{
-					"label": "Assembly Scripts",
-					"url": "link.pages-assembly-scripts"
-			},
-			{
-					"label": "Interactive",
-					"url": "link.pages-interactive"
-			}
-	],
     "alert" : {
 		"styleModifier" : "info"
 	},

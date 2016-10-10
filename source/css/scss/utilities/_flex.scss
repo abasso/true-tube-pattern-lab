@@ -93,6 +93,23 @@
   }
 }
 
+.flex-order-lg-1 {
+  @media(max-width:$breakpoint-lg) {
+    order:1;
+  }
+}
+
+.flex-order-lg-2 {
+  @media(max-width:$breakpoint-lg) {
+    order:2;
+  }}
+
+.flex-order-lg-3 {
+  @media(max-width:$breakpoint-lg) {
+    order:3;
+  }
+}
+
 .flex-md-row {
   display:flex;
   flex-direction:column;

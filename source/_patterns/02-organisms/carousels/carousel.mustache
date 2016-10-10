@@ -1,0 +1,28 @@
+{{#carousel}}
+    <div class="swiper-container {{swiperContainerClass}}">
+      <div class="swiper-wrapper">
+        {{#swiperSlides}}
+          <div class="swiper-slide">
+            <a href="{{swiperSlideLink}}">
+              <picture>
+              <source srcset="{{swiperSlideImage}}" media="(min-width: 1024px)">
+              <source srcset="{{swiperSlideImageMed}}" media="(min-width: 769px)">
+                <source srcset="{{swiperSlideImageSmall}}" media="(min-width: 0px)">
+              <img srcset="{{swiperSlideImage}}" alt="…">
+            </picture>
+            {{#swiperSlideTitle}}
+              <h2 class="display-4">
+                <a href="{{swiperSlideLink}}">
+                  {{{swiperSlideTitle}}}
+                </a>
+              </h2>
+            {{/swiperSlideTitle}}
+          </a>
+          </div>
+        {{/swiperSlides}}
+      </div>
+      {{#swiperPagination}}
+      <div class="swiper-pagination"></div>
+      {{/swiperPagination}}
+    </div>
+{{/carousel}}

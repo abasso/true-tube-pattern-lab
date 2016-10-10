@@ -1,0 +1,151 @@
+{
+	"pageTitle" : "Our Partners",
+    "partners" : {
+	    "sectionTitle" : "",
+	    "mediaList" : [
+        {
+  				"url" : "link.pages-content",
+  				"imgLandscape" : {
+  					"src": "../../../images/partners/university_of_kent.png",
+  					"alt": "University of Kent"
+  				},
+  				"headline" : {
+  					"short" : "University of Kent"
+  				},
+          "time": "",
+  				"description" : {
+  					"medium" : "The University of Kent commissioned our What Is Sacred series. </br></br><a href=''>http://www.kent.ac.uk/secl/thrs</a>"
+  				},
+          "categoryList" : ""
+  			},
+  			{
+  				"url" : "link.pages-content",
+  				"imgLandscape" : {
+            "src": "../../../images/partners/rm_unify.png",
+  					"alt": "RM Education"
+  				},
+  				"headline" : {
+  					"short" : "RM Education"
+  				},
+          "time": "",
+  				"description" : {
+  					"medium" : "If you're an RM Unify user, you can now access TrueTube directly through the AppStore. </br></br><a href=''>http://www.rm.com</a>"
+  				},
+  				"categoryList" : ""
+  			},
+  			{
+  				"url" : "link.pages-content",
+  				"imgLandscape" : {
+            "src": "../../../images/partners/frog.png",
+  					"alt": "red mountains"
+  				},
+  				"headline" : {
+  					"short" : "Frog"
+  				},
+          "time": "",
+  				"description" : {
+  					"medium" : "TrueTube films now come up in Frog's media search. Huzah. </br></br><a href=''>http://www.frogtrade.com</a>"
+  				},
+          "categoryList" : ""
+  			},
+        {
+          "url" : "link.pages-content",
+          "imgLandscape" : {
+            "src": "../../../images/partners/spiral.png",
+            "alt": "Spiral"
+          },
+          "headline" : {
+            "short" : "Spiral"
+          },
+          "time": "",
+          "description" : {
+            "medium" : "TrueTube videos are available in Spiral's range of apps for the classroom. </br></br><a href=''>http://spiral.ac/r/tru</a>"
+          },
+          "categoryList" : ""
+        },
+        {
+          "url" : "link.pages-content",
+          "imgLandscape" : {
+            "src": "../../../images/partners/tes.png",
+            "alt": "TES"
+          },
+          "headline" : {
+            "short" : "TES"
+          },
+          "time": "",
+          "description" : {
+            "medium" : "THE place for teachers to connect and share resources. </br></br><a href=''>https://www.tes.com/member/TrueTube</a>"
+          },
+          "categoryList" : ""
+        },
+        {
+          "url" : "link.pages-content",
+          "imgLandscape" : {
+            "src": "../../../images/partners/re_online.png",
+            "alt": "RE online"
+          },
+          "headline" : {
+            "short" : "RE Online"
+          },
+          "time": "",
+          "description" : {
+            "medium" : "A portal site for those working and interested in Religious Education. </br></br><a href=''>http://www.reonline.org.uk/</a>"
+          },
+          "categoryList" : ""
+        }
+		],
+		"textButton" : false
+    },
+    "featuredPeople" : {
+		"sectionTitle" : "Friends",
+		"mediaList": [
+			{
+				"url" : "",
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar4.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Danny DeVito"
+				},
+				"excerpt" : {
+					"medium" : "Neptune Township, NJ"
+				}
+
+			},
+			{
+				"url" : "",
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar6.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Sally Jessy Raphael"
+				},
+				"excerpt" : {
+					"medium" : "Easton, PA"
+				}
+
+			},
+			{
+				"url" : "",
+				"styleModifier" : "small",
+				"imgSquare" : {
+					"src": "../../../images/sample/avatar5.jpg",
+					"alt": "avatar"
+				},
+				"headline" : {
+					"short" : "Charlie Chaplin"
+				},
+				"excerpt" : {
+					"medium" : "London, UK"
+				}
+
+			}
+		]
+	},
+	"modalDemo" : false
+
+}

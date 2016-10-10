@@ -1,5 +1,37 @@
-footer {
+.partners-carousel {
   margin-top:1rem;
+  background:$gray-lightest;
+  padding:.5rem 0 1rem;
+  .partners-carousel-header {
+    display:flex;
+    align-items: center;
+    .partners-carousel-link {
+      margin-left:auto;
+      border-bottom:dotted 1px $gray-lighter;
+    }
+  }
+  .swiper-wrapper {
+    padding-bottom:3.5rem;
+  }
+  .swiper-slide {
+    padding:1rem;
+    text-align:center;
+    border-radius:$border-radius-lg;
+    background:#fff;
+  }
+  .swiper-pagination {
+    border:none;
+  }
+  // h3 {
+  //   padding-bottom:1rem;
+  // }
+  img {
+    width:100%;
+    min-height:0;
+  }
+}
+
+footer {
   font-size:$font-size-sm;
 
   .container {

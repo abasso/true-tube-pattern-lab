@@ -59,6 +59,11 @@
     }
   }
 
+  input {
+    background-image:none !important;
+    background-color:white !important;
+  }
+
   .filter-show-hide {
     background:$gray-lightest;
     outline:none;

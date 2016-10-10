@@ -1,0 +1,20 @@
+{{> organisms-header }}
+	<main role="main">
+		<div class="container">
+			<div class="row">
+        <div class="col-xs-12 col-ml-12 col-xl-12">
+  			<h1 class="page-title page-title-underline">
+          {{pageTitle}}
+        </h1>
+  		</div>
+        <div class="col-xs-12 col-ml-12 col-xl-9 col-xl-p-right flex-order-lg-1">
+  			{{# partners }}
+  				{{> organisms-partners-grid }}
+  			{{/ partners }}
+  		</div>
+      <div class="col-xs-12 col-ml-12 col-xl-3 col-xl-p-left flex-order-lg-0">
+        <p>We work with a range of different partners to increase the range and availability of our content - from undertaking commissions to making our content available through our <a href="#">API.</a>
+If you would like to become a TrueTube partner please get in touch <a href="#">contact@truetube.co.uk.</a></p>		</div>
+		</div>
+	</main>
+{{> organisms-footer }}

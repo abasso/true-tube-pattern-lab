@@ -1,12 +1,8 @@
 <a href="{{ url }}" class="block-media__link {{ styleModifier }}">
-	<div class="block-media__media">
+	<div class="block-resource__media">
 	{{> atoms-landscape:c-block-media__img }}
 </div>
 <div class="block-media__body">
 	<h6 class="block-media__headline">{{ headline.short }}</h6></a>
-		<p class="block-media__description small">{{ description.medium }}</p>
-			{{# actionList }}
-				{{> atoms-text-button}}
-			{{/ actionList }}
-		</div>
-</a>
+		<p class="block-media__description small">{{{ description.medium }}}</p>
+	</div>

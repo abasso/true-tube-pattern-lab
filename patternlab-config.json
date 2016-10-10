@@ -49,7 +49,7 @@
     "tools-all": false,
     "tools-docs": false
   },
-  "ishMinimum": "240",
+  "ishMinimum": "320",
   "ishMaximum": "2600",
   "patternStateCascade": ["inprogress", "inreview", "complete"],
   "patternStates": {

@@ -1,262 +1,262 @@
 {
-    "company" : {
-        "name" : "True Tube",
-        "url" : "http://truetube.com"
+  "company" : {
+    "name" : "True Tube",
+    "url" : "http://truetube.com"
+  },
+  "title" : "True Tube",
+  "pageTitle": "Page Title",
+  "htmlClass": "pl",
+  "bodyClass": "body",
+  "modalTitle": "Modal",
+  "btnText" : "Button",
+  "radioButtonLabel" : "Radio button",
+  "progress" : true,
+  "max" : "100",
+  "time": "5:32",
+  "progressValue" : "85",
+  "alertText" : "An alert is messaging that tells the user some information. Alerts can be error, warning, success, or info messages",
+  "quoteText" : "A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.",
+  "quoteSource" : "<a href='https://en.wikipedia.org/wiki/Block_quotation'>Wikiepedia</a>",
+  "img": {
+    "landscape-4x3": {
+      "src": "../../images/fpo_4x3.png",
+      "alt": "4x3 Image"
     },
-    "title" : "True Tube",
-    "pageTitle": "Page Title",
-    "htmlClass": "pl",
-    "bodyClass": "body",
-    "modalTitle": "Modal",
-    "btnText" : "Button",
-    "radioButtonLabel" : "Radio button",
-    "progress" : true,
-    "max" : "100",
-    "time": "5:32",
-    "progressValue" : "85",
-	"alertText" : "An alert is messaging that tells the user some information. Alerts can be error, warning, success, or info messages",
-    "quoteText" : "A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.",
-    "quoteSource" : "<a href='https://en.wikipedia.org/wiki/Block_quotation'>Wikiepedia</a>",
-    "img": {
-        "landscape-4x3": {
-            "src": "../../images/fpo_4x3.png",
-            "alt": "4x3 Image"
-        },
-        "landscape-16x9": {
-            "src": "../../images/fpo_hero.png",
-            "alt": "16x9 Image"
-        },
-        "avatar" : {
-            "src" : "../../images/fpo_avatar.png",
-            "alt" : "Person Name"
-        }
+    "landscape-16x9": {
+      "src": "../../images/fpo_hero.png",
+      "alt": "16x9 Image"
     },
-    "imgSquare" : {
-        "src": "../../images/fpo_square.png",
-        "alt": "Square Image"
+    "avatar" : {
+      "src" : "../../images/fpo_avatar.png",
+      "alt" : "Person Name"
+    }
+  },
+  "imgSquare" : {
+    "src": "../../images/fpo_square.png",
+    "alt": "Square Image"
+  },
+  "imgHero" : {
+    "src": "../../images/fpo_hero.png",
+    "alt": "Hero Image"
+  },
+  "imgLandscape" : {
+    "src": "../../images/fpo_16x9.png",
+    "alt": "Landscape Image"
+  },
+  "headline" : {
+    "short" : "Lorem ipsum dolor sit (37 characters)",
+    "medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit iopa. (76 characters)"
+  },
+  "sectionTitle" : "Section Title",
+  "description" : {
+    "short" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    "medium" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "long" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  "callToActionMessage" : "Videos, Lesson Plans, Assemblies and Interactive Presentations for RE, PSHE & Citizenship",
+  "callToActionLink" : [
+    {
+      "btnText":  "Register for Free",
+      "btnClass": "call-to-action-link",
+      "linkHref": "link.pages-register"
+    }
+  ],
+  "loginText" : "Login",
+  "number" : "12",
+  "primaryNav" : [
+    {
+      "label": "Videos",
+      "url": "link.pages-videos"
     },
-    "imgHero" : {
-        "src": "../../images/fpo_hero.png",
-        "alt": "Hero Image"
+    {
+      "label": "Lesson Plans",
+      "url": "link.pages-videos"
     },
-    "imgLandscape" : {
-        "src": "../../images/fpo_16x9.png",
-        "alt": "Landscape Image"
+    {
+      "label": "Assembly Scripts",
+      "url": "link.pages-videos"
     },
-    "headline" : {
-        "short" : "Lorem ipsum dolor sit (37 characters)",
-        "medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit iopa. (76 characters)"
+    {
+      "label": "Interactive",
+      "url": "link.pages-videos"
+    }
+  ],
+  "secondaryNav" : [
+    {
+      "label": "Global",
+      "url": "link.pages-video"
     },
-    "sectionTitle" : "Section Title",
-    "description" : {
-        "short" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-        "medium" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "long" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    {
+      "label": "The Earth",
+      "url": "link.pages-video"
     },
-    "callToActionMessage" : "Videos, Lesson Plans, Assemblies and Interactive Presentations for RE, PSHE & Citizenship",
-    "callToActionLink" : [
+    {
+      "label": "Relationships",
+      "url": "link.pages-video"
+    },
+    {
+      "label": "Culture",
+      "url": "link.pages-video"
+    },
+    {
+      "label": "Society",
+      "url": "link.pages-video"
+    },
+    {
+      "label": "Ethics & Religion",
+      "url": "link.pages-video"
+    },
+    {
+      "label": "Jobs & Money",
+      "url": "link.pages-video"
+    },
+    {
+      "label": "Crime",
+      "url": "link.pages-video"
+    },
+    {
+      "label": "Body & Health",
+      "url": "link.pages-video"
+    }
+  ],
+  "footerNavLeft" : [
+    {
+      "label": "About Us",
+      "url": "link.pages-about"
+    },
+    {
+      "label": "Blog",
+      "url": "link.pages-blog-index"
+    },
+    {
+      "label": "Support",
+      "url": "link.pages-login"
+    }
+  ],
+  "footerNavMiddle" : [
+    {
+      "label": "Terms & Conditions",
+      "url": "link.pages-about"
+    },
+    {
+      "label": "Meet the Team",
+      "url": "link.pages-blog-index"
+    },
+    {
+      "label": "True Tube API",
+      "url": "link.pages-contact"
+    }
+  ],
+  "footerNavRight" : [
+    {
+      "label": "Case Studies",
+      "url": "link.pages-about"
+    },
+    {
+      "label": "Educational Advertisers",
+      "url": "link.pages-blog-index"
+    },
+    {
+      "label": "Awards",
+      "url": "link.pages-contact"
+    }
+  ],
+  "footerAddress" : [
+    {
+      "label": "About",
+      "url": "link.pages-about"
+    },
+    {
+      "label": "Blog",
+      "url": "link.pages-blog-index"
+    },
+    {
+      "label": "Contact",
+      "url": "link.pages-contact"
+    },
+    {
+      "label": "Login",
+      "url": "link.pages-login"
+    }
+  ],
+  "url" : "#",
+  "htmlText" : "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti fuga, quas quisquam perspiciatis. Consequatur, atque ducimus dolores natus officia qui rerum consectetur repellat ullam accusantium laboriosam, reprehenderit nemo deleniti</p>",
+  "form" : true,
+  "field" : {
+    "id" : "field-id",
+    "label" : "label",
+    "type" : "text",
+    "placeholder" : "Placeholder",
+    "value" : "",
+    "fieldNote" : ""
+  },
+  "select" : {
+    "label" : "Items Per Page",
+    "selectOptions" : [
       {
-        "btnText":  "Register for Free",
-        "btnClass": "call-to-action-link",
-        "linkHref": "link.pages-register"
+        "option" : "9"
+      },
+      {
+        "option" : "18"
+      },
+      {
+        "option" : "36"
+      },
+      {
+        "option" : "ALL"
+      }
+    ]
+  },
+  "year" : "2016",
+  "fields" : [
+    { },
+    { }
+  ],
+  "textFieldPlaceholder" : "Placeholder Text",
+  "textarea" : {
+    "label" : "label"
+  },
+  "checkbox" : {
+    "label" : "label"
+  },
+  "hero": true,
+  "alert": true,
+  "latestPosts" : {
+    "mediaList": [
+      {
+      },
+      {
+      },
+      {
       }
     ],
-    "loginText" : "Login",
-    "number" : "12",
-    "primaryNav" : [
-        {
-            "label": "Videos",
-            "url": "link.pages-videos"
-        },
-        {
-            "label": "Lesson Plans",
-            "url": "link.pages-lesson-plans"
-        },
-        {
-            "label": "Assembly Scripts",
-            "url": "link.pages-assembly-scripts"
-        },
-        {
-            "label": "Interactive",
-            "url": "link.pages-interactive"
-        }
+    "textButton" : false,
+    "pagination" : true
+  },
+  "featuredPosts" : {
+    "mediaList": [
+      {
+        "styleModifier" : "small"
+      },
+      {
+        "styleModifier" : "small"
+      },
+      {
+        "styleModifier" : "small"
+      }
     ],
-    "secondaryNav" : [
-        {
-            "label": "Global",
-            "url": "link.pages-video"
-        },
-        {
-            "label": "The Earth",
-            "url": "link.pages-lesson-plans"
-        },
-        {
-            "label": "Relationships",
-            "url": "link.pages-assembly-scripts"
-        },
-        {
-            "label": "Culture",
-            "url": "link.pages-interactive"
-        },
-        {
-            "label": "Society",
-            "url": "link.pages-interactive"
-        },
-        {
-            "label": "Ethics & Religion",
-            "url": "link.pages-interactive"
-        },
-        {
-            "label": "Jobs & Money",
-            "url": "link.pages-interactive"
-        },
-        {
-            "label": "Crime",
-            "url": "link.pages-interactive"
-        },
-        {
-            "label": "Body & Health",
-            "url": "link.pages-interactive"
-        }
+    "pagination" : false
+  },
+  "featuredChallenges" : {
+    "mediaList": [
+      {},
+      {},
+      {},
+      {}
     ],
-    "footerNavLeft" : [
-        {
-            "label": "About Us",
-            "url": "link.pages-about"
-        },
-        {
-            "label": "Blog",
-            "url": "link.pages-blog-index"
-        },
-        {
-            "label": "Support",
-            "url": "link.pages-login"
-        }
-    ],
-    "footerNavMiddle" : [
-        {
-            "label": "Terms & Conditions",
-            "url": "link.pages-about"
-        },
-        {
-            "label": "Meet the Team",
-            "url": "link.pages-blog-index"
-        },
-        {
-            "label": "True Tube API",
-            "url": "link.pages-contact"
-        }
-    ],
-    "footerNavRight" : [
-        {
-            "label": "Case Studies",
-            "url": "link.pages-about"
-        },
-        {
-            "label": "Educational Advertisers",
-            "url": "link.pages-blog-index"
-        },
-        {
-            "label": "Awards",
-            "url": "link.pages-contact"
-        }
-    ],
-    "footerAddress" : [
-        {
-            "label": "About",
-            "url": "link.pages-about"
-        },
-        {
-            "label": "Blog",
-            "url": "link.pages-blog-index"
-        },
-        {
-            "label": "Contact",
-            "url": "link.pages-contact"
-        },
-        {
-            "label": "Login",
-            "url": "link.pages-login"
-        }
-    ],
-    "url" : "#",
-    "htmlText" : "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, unde, dolore? Ex fugit, necessitatibus tempore neque ullam nostrum ducimus alias beatae voluptatibus iusto, perspiciatis tenetur consectetur reprehenderit, harum quae rerum!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti fuga, quas quisquam perspiciatis. Consequatur, atque ducimus dolores natus officia qui rerum consectetur repellat ullam accusantium laboriosam, reprehenderit nemo deleniti</p>",
-    "form" : true,
-    "field" : {
-        "id" : "field-id",
-        "label" : "label",
-        "type" : "text",
-        "placeholder" : "Placeholder",
-        "value" : "",
-        "fieldNote" : ""
-    },
-    "select" : {
-			"label" : "Items Per Page",
-			"selectOptions" : [
-				{
-					"option" : "9"
-				},
-				{
-					"option" : "18"
-				},
-				{
-					"option" : "36"
-				},
-				{
-					"option" : "ALL"
-				}
-			]
-		},
-    "year" : "2016",
-    "fields" : [
-        { },
-        { }
-    ],
-    "textFieldPlaceholder" : "Placeholder Text",
-    "textarea" : {
-	    "label" : "label"
-    },
-    "checkbox" : {
-      "label" : "label"
-    },
-    "hero": true,
-    "alert": true,
-    "latestPosts" : {
-        "mediaList": [
-            {
-            },
-            {
-            },
-            {
-            }
-        ],
-        "textButton" : false,
-        "pagination" : true
-    },
-    "featuredPosts" : {
-        "mediaList": [
-            {
-	            "styleModifier" : "small"
-            },
-            {
-	            "styleModifier" : "small"
-            },
-            {
-	            "styleModifier" : "small"
-            }
-        ],
-        "pagination" : false
-    },
-    "featuredChallenges" : {
-	    "mediaList": [
-		    {},
-		    {},
-		    {},
-		    {}
-		],
-		"textButton" : false,
-		"pagination" : true
-	},
+    "textButton" : false,
+    "pagination" : true
+  },
   "categoryList" : [
     {
       "btnText": "Video",
@@ -271,63 +271,63 @@
       "btnClass": "btn-assembly-plan"
     }
   ],
-    "toutList": [
-        { },
-        { },
-        { }
-    ],
-    "mediaList": [
-        { },
-        { },
-        { }
-    ],
-    "blockFeature": true,
-    "tileList": [
-        { },
-        { },
-        { },
-        { }
-    ],
+  "toutList": [
+    { },
+    { },
+    { }
+  ],
+  "mediaList": [
+    { },
+    { },
+    { }
+  ],
+  "blockFeature": true,
+  "tileList": [
+    { },
+    { },
+    { },
+    { }
+  ],
   "showGridPagination" : true,
-	"paginationList" : [
-		{
-	   "linkHref" : "#",
-	   "btnText" : "1"
-		},
-		{
-			"linkHref" : "#",
-			"btnText" : "2",
+  "paginationList" : [
+    {
+      "linkHref" : "#",
+      "btnText" : "1"
+    },
+    {
+      "linkHref" : "#",
+      "btnText" : "2",
       "class" : "active"
-		},
-		{
-			"linkHref" : "#",
-			"btnText" : "3"
-		},
-		{
-			"linkHref" : "#",
-			"btnText" : "4"
-		}
-	],
+    },
+    {
+      "linkHref" : "#",
+      "btnText" : "3"
+    },
+    {
+      "linkHref" : "#",
+      "btnText" : "4"
+    }
+  ],
   "listMode" : [
     {
-	   "linkHref" : "#",
-	   "btnText" : "Grid",
-     "class" : "display-grid active"
-		},
-		{
-			"linkHref" : "#",
-			"btnText" : "List",
+      "linkHref" : "#",
+      "btnText" : "Grid",
+      "class" : "display-grid active"
+    },
+    {
+      "linkHref" : "#",
+      "btnText" : "List",
       "btnClass" : "display-list",
       "class" : "display-list"
-		}
+    }
   ],
   "showGridType" : false,
   "showGridSettings" : true,
   "gridType" : [
     {
-     "linkHref" : "#",
-     "btnText" : "Most Recent",
-     "class" : "active"
+      "linkHref" : "#",
+      "btnText" : "Most Recent",
+      "class" : "active"
     },
     {
       "linkHref" : "#",
@@ -344,375 +344,375 @@
       "btnClass" : "",
       "btnText": "Load More"
     }
-  ],  "textButton" : true,
-	"overlayMessage" : "Let's go on a hike and climb in elevation",
-	"overlayAction" : "Find a Hike",
-  "filterShowHide": [
-    {
-      "btnClass" : "filter-show-hide",
-      "btnText": "Show"
-    }
-  ],
-  "filterContentTypes" : [
-    {
-      "btnClass" : "active btn-sm",
-      "btnText" : "Videos"
-    },
-    {
-      "btnClass" : "btn-sm",
-      "btnText" : "Lesson Plans"
-    },
-    {
-      "btnClass" : "btn-sm",
-      "btnText" : "Assembly Scripts"
-    },
-    {
-      "btnClass" : "btn-sm",
-      "btnText" : "Interactive"
-    }
-  ],
-  "filterKeyStages" : [
-    {
-      "btnClass" : "active btn-sm",
-      "btnText" : "1"
-    },
-    {
-      "btnClass" : "btn-sm",
-      "btnText" : "2"
-    },
-    {
-      "btnClass" : "btn-sm",
-      "btnText" : "3"
-    },
-    {
-      "btnClass" : "btn-sm",
-      "btnText" : "4"
-    },
-    {
-      "btnClass" : "btn-sm",
-      "btnText" : "5"
-    }
-  ],
-  "filterSubject" : {
-    "select" : {
-    "label" : "",
-    "labelClass" : "d-hidden",
-    "selectOptions": [
+    ],  "textButton" : true,
+    "overlayMessage" : "Let's go on a hike and climb in elevation",
+    "overlayAction" : "Find a Hike",
+    "filterShowHide": [
       {
-        "option" : "All"
-      }
-    ]
-  }
-  },
-  "filterCategories" : {
-      "checkbox" : [
-      {
-        "label" : "Global (80)"
-      },
-      {
-        "label" : "The Earth (80)",
-        "checked" : "checked"
-      },
-      {
-        "label" : "Relationships (50)"
-      },
-      {
-        "label" : "Culture (118)"
-      },
-      {
-        "label" : "Society (120)"
-      },
-      {
-        "label" : "Ethics & Religion (221)"
-      },
-      {
-        "label" : "Jobs & Money (154)"
-      },
-      {
-        "label" : "Crime (52)"
-      },
-      {
-        "label" : "Body & Health (126)"
-      }
-
-    ]
-  },
-  "filterTopics" : {
-      "checkbox" : [
-      {
-        "label" : "Europe (115)"
-      },
-      {
-        "label" : "Human Rights (63)"
-      },
-      {
-        "label" : "Customs & Traditions (50)",
-        "checked" : "checked"
-      },
-      {
-        "label" : "The Developing World (118)"
-      },
-      {
-        "label" : "Travel (120)"
-      }
-    ]
-  },
-  "filterSearch" : {
-      "textFieldPlaceholder" : "e.g. Social studies"
-  },
-  "eventBlock": {
-    "title": "Events in June",
-    "eventList" : [
-      {
-        "date" : "5th",
-        "label" : "World Enlightenment Day"
-      },
-      {
-        "date" : "7th",
-        "label" : "Ramadan"
-      },
-      {
-        "date" : "13th",
-        "label" : "My Money Week"
-      },
-      {
-        "date" : "16th",
-        "label" : "Guru Arjan’s Martyrdom"
-      },
-      {
-        "date" : "20th",
-        "label" : "Refugee Week"
+        "btnClass" : "filter-show-hide",
+        "btnText": "Show"
       }
     ],
-    "btnText" : "Full Calendar",
-    "btnClass" : "event-block__calendar",
-    "monthSelector" : [
+    "filterContentTypes" : [
       {
         "btnClass" : "active btn-sm",
-        "btnText" : ""
+        "btnText" : "Videos"
       },
       {
         "btnClass" : "btn-sm",
-        "btnText" : ""
-      }
-    ]
-  },
-  "popularBlock": {
-    "title": "Popular Topics",
-    "eventList" : [
-      {
-        "label" : "Gang Culture (25 Items)"
+        "btnText" : "Lesson Plans"
       },
       {
-        "label" : "Sexual Equality (25 Items)"
+        "btnClass" : "btn-sm",
+        "btnText" : "Assembly Scripts"
       },
       {
-        "label" : "The Nature of God (12 Items)"
-      },
-      {
-        "label" : "Multiculturalism (45 Items)"
-      },
-      {
-        "label" : "The Nature of Evil (20 Items)"
+        "btnClass" : "btn-sm",
+        "btnText" : "Interactive"
       }
     ],
-    "btnText" : "All Topics",
-    "btnClass" : "popular-block__all"
-  },
-  "infoDescription" : "Restorative Justice is a process in which someone who has committed a crime meets their victim to help both people come to terms with what has happened. So what would you say if you came face to face with the person who has been bullying you online?",
-  "infoAttributes" : [
-    {
-      "title" : "Main Topic",
-      "links" : [
+    "filterKeyStages" : [
+      {
+        "btnClass" : "active btn-sm",
+        "btnText" : "1"
+      },
+      {
+        "btnClass" : "btn-sm",
+        "btnText" : "2"
+      },
+      {
+        "btnClass" : "btn-sm",
+        "btnText" : "3"
+      },
+      {
+        "btnClass" : "btn-sm",
+        "btnText" : "4"
+      },
+      {
+        "btnClass" : "btn-sm",
+        "btnText" : "5"
+      }
+    ],
+    "filterSubject" : {
+      "select" : {
+        "label" : "",
+        "labelClass" : "d-hidden",
+        "selectOptions": [
+          {
+            "option" : "All"
+          }
+        ]
+      }
+    },
+    "filterCategories" : {
+      "checkbox" : [
         {
-          "btnText" : "Bullying"
+          "label" : "Global (80)"
+        },
+        {
+          "label" : "The Earth (80)",
+          "checked" : "checked"
+        },
+        {
+          "label" : "Relationships (50)"
+        },
+        {
+          "label" : "Culture (118)"
+        },
+        {
+          "label" : "Society (120)"
+        },
+        {
+          "label" : "Ethics & Religion (221)"
+        },
+        {
+          "label" : "Jobs & Money (154)"
+        },
+        {
+          "label" : "Crime (52)"
+        },
+        {
+          "label" : "Body & Health (126)"
+        }
+
+      ]
+    },
+    "filterTopics" : {
+      "checkbox" : [
+        {
+          "label" : "Europe (115)"
+        },
+        {
+          "label" : "Human Rights (63)"
+        },
+        {
+          "label" : "Customs & Traditions (50)",
+          "checked" : "checked"
+        },
+        {
+          "label" : "The Developing World (118)"
+        },
+        {
+          "label" : "Travel (120)"
         }
       ]
     },
-    {
-      "title" : "Related Topic(s)",
-      "links" : [
+    "filterSearch" : {
+      "textFieldPlaceholder" : "e.g. Social studies"
+    },
+    "eventBlock": {
+      "title": "Events in June",
+      "eventList" : [
         {
-          "btnText" : "Justice & Equality,"
+          "date" : "5th",
+          "label" : "World Enlightenment Day"
         },
         {
-          "btnText" : "Moral Decisions,"
+          "date" : "7th",
+          "label" : "Ramadan"
         },
         {
-          "btnText" : "Punishment"
+          "date" : "13th",
+          "label" : "My Money Week"
+        },
+        {
+          "date" : "16th",
+          "label" : "Guru Arjan’s Martyrdom"
+        },
+        {
+          "date" : "20th",
+          "label" : "Refugee Week"
+        }
+      ],
+      "btnText" : "Full Calendar",
+      "btnClass" : "event-block__calendar",
+      "monthSelector" : [
+        {
+          "btnClass" : "active btn-sm",
+          "btnText" : ""
+        },
+        {
+          "btnClass" : "btn-sm",
+          "btnText" : ""
         }
       ]
     },
-    {
-      "title" : "Keystage(s)",
-      "links" : [
+    "popularBlock": {
+      "title": "Popular Topics",
+      "eventList" : [
         {
-          "btnText" : "3,"
+          "label" : "Gang Culture (25 Items)"
         },
         {
-          "btnText" : "4"
+          "label" : "Sexual Equality (25 Items)"
+        },
+        {
+          "label" : "The Nature of God (12 Items)"
+        },
+        {
+          "label" : "Multiculturalism (45 Items)"
+        },
+        {
+          "label" : "The Nature of Evil (20 Items)"
+        }
+      ],
+      "btnText" : "All Topics",
+      "btnClass" : "popular-block__all"
+    },
+    "infoDescription" : "Restorative Justice is a process in which someone who has committed a crime meets their victim to help both people come to terms with what has happened. So what would you say if you came face to face with the person who has been bullying you online?",
+    "infoAttributes" : [
+      {
+        "title" : "Main Topic",
+        "links" : [
+          {
+            "btnText" : "Bullying"
+          }
+        ]
+      },
+      {
+        "title" : "Related Topic(s)",
+        "links" : [
+          {
+            "btnText" : "Justice & Equality,"
+          },
+          {
+            "btnText" : "Moral Decisions,"
+          },
+          {
+            "btnText" : "Punishment"
+          }
+        ]
+      },
+      {
+        "title" : "Keystage(s)",
+        "links" : [
+          {
+            "btnText" : "3,"
+          },
+          {
+            "btnText" : "4"
+          }
+        ]
+      },
+      {
+        "title" : "Subject(s)",
+        "links" : [
+          {
+            "btnText" : "RE,"
+          },
+          {
+            "btnText" : "PHSE"
+          }
+        ]
+      },
+      {
+        "title" : "Genre",
+        "links" : [
+          {
+            "btnText" : "Drama"
+          }
+        ]
+      },
+      {
+        "title" : "Related Topic(s)",
+        "links" : [
+          {
+            "btnText" : "Restorative Justice,"
+          },
+          {
+            "btnText" : "Bullying,"
+          },
+          {
+            "btnText" : "Cyber Bullying,"
+          },
+          {
+            "btnText" : "Bully,"
+          },
+          {
+            "btnText" : "Crime,"
+          },
+          {
+            "btnText" : "Criminal,"
+          },
+          {
+            "btnText" : "Counselling,"
+          },
+          {
+            "btnText" : "Mediate"
+          }
+        ]
+      }
+    ],
+    "videoInfo" : [
+      {
+        "infoClass" : "icon-clock icon-small icon-left",
+        "infoLabel" : "25.45"
+      },
+      {
+        "infoClass" : "icon-cc icon-large ",
+        "infoLabel" : ""
+      }
+    ],
+    "videoFooterInfo" : [
+      {
+        "infoClass" : "icon-views icon-small icon-left ",
+        "infoLabel" : "415 Views"
+      },
+      {
+        "infoClass" : "",
+        "infoLabel" : "4 days ago"
+      }
+    ],
+    "videoShareTitle" : "Share",
+    "videoShare" : [
+      {
+        "btnText" : "",
+        "btnClass" : "icon-facebook hidden-xs-down icon-social"
+      },
+      {
+        "btnText" : "",
+        "btnClass" : "icon-twitter hidden-xs-down icon-social"
+      },
+      {
+        "btnText" : "",
+        "btnClass" : "icon-google-plus hidden-xs-down icon-social"
+      },
+      {
+        "btnText" : "",
+        "btnClass" : "icon-share icon-social"
+      }
+    ],
+    "videoActions" : [
+      {
+        "btnClass" : "icon-download icon-small icon-left",
+        "btnText" : "Download"
+      },
+      {
+        "btnClass" : "icon-embed icon-small icon-left",
+        "btnText" : "Embed"
+      }
+    ],
+    "buttonAddToToolbox" : {
+      "btnClass" : "icon-add icon-small icon-left icon-border",
+      "btnText" : "Add to my toolbox"
+    },
+    "infoClass" : "icon-clock icon-small icon-left",
+    "infoLabel" : "An info icon with label",
+    "ratingStars" : [
+      {
+        "class" : "filled"
+      },
+      {
+        "class" : "filled"
+      },
+      {
+        "class" : "filled"
+      },
+      {
+        "class" : "filled"
+      },
+      {
+        "class" : ""
+      }
+    ],
+    "ratingLabel" : "2 Votes",
+    "contentNav" : [
+      {
+        "btnClass" : "interactive ",
+        "btnText" : "Interactive"
+      },
+      {
+        "btnClass" : "assembly-plans ",
+        "btnText" : "Assembly Scripts"
+      },
+      {
+        "btnClass" : "lesson-plans",
+        "btnText" : "Lesson Plans"
+      },
+      {
+        "btnClass" : "videos active",
+        "btnText" : "Video"
+      }
+    ],
+    "contentMobileNav" : {
+      "selectOptions": [
+        {
+          "option" : "Video",
+          "selected" : "selected"
+        },
+        {
+          "option" : "Lesson Plans"
+        },
+        {
+          "option" : "Assembly Scripts"
         }
       ]
     },
-    {
-      "title" : "Subject(s)",
-      "links" : [
-        {
-          "btnText" : "RE,"
-        },
-        {
-          "btnText" : "PHSE"
-        }
-      ]
-    },
-    {
-      "title" : "Genre",
-      "links" : [
-        {
-          "btnText" : "Drama"
-        }
-      ]
-    },
-    {
-      "title" : "Related Topic(s)",
-      "links" : [
-        {
-          "btnText" : "Restorative Justice,"
-        },
-        {
-          "btnText" : "Bullying,"
-        },
-        {
-          "btnText" : "Cyber Bullying,"
-        },
-        {
-          "btnText" : "Bully,"
-        },
-        {
-          "btnText" : "Crime,"
-        },
-        {
-          "btnText" : "Criminal,"
-        },
-        {
-          "btnText" : "Counselling,"
-        },
-        {
-          "btnText" : "Mediate"
-        }
-      ]
-    }
-  ],
-  "videoInfo" : [
-    {
-      "infoClass" : "icon-clock icon-small icon-left",
-      "infoLabel" : "25.45"
-    },
-    {
-      "infoClass" : "icon-cc icon-large ",
-      "infoLabel" : ""
-    }
-  ],
-  "videoFooterInfo" : [
-    {
-      "infoClass" : "icon-views icon-small icon-left ",
-      "infoLabel" : "415 Views"
-    },
-    {
-      "infoClass" : "",
-      "infoLabel" : "4 days ago"
-    }
-  ],
-  "videoShareTitle" : "Share",
-  "videoShare" : [
-    {
-      "btnText" : "",
-      "btnClass" : "icon-facebook hidden-xs-down icon-social"
-    },
-    {
-      "btnText" : "",
-      "btnClass" : "icon-twitter hidden-xs-down icon-social"
-    },
-    {
-      "btnText" : "",
-      "btnClass" : "icon-google-plus hidden-xs-down icon-social"
-    },
-    {
-      "btnText" : "",
-      "btnClass" : "icon-share icon-social"
-    }
-  ],
-  "videoActions" : [
-    {
-      "btnClass" : "icon-download icon-small icon-left",
-      "btnText" : "Download"
-    },
-    {
-      "btnClass" : "icon-embed icon-small icon-left",
-      "btnText" : "Embed"
-    }
-  ],
-  "buttonAddToToolbox" : {
-    "btnClass" : "icon-add icon-small icon-left icon-border",
-    "btnText" : "Add to my toolbox"
-  },
-  "infoClass" : "icon-clock icon-small icon-left",
-  "infoLabel" : "An info icon with label",
-  "ratingStars" : [
-    {
-      "class" : "filled"
-    },
-    {
-      "class" : "filled"
-    },
-    {
-      "class" : "filled"
-    },
-    {
-      "class" : "filled"
-    },
-    {
-      "class" : ""
-    }
-  ],
-  "ratingLabel" : "2 Votes",
-  "contentNav" : [
-    {
-      "btnClass" : "interactive ",
-      "btnText" : "Interactive"
-    },
-    {
-      "btnClass" : "assembly-plans ",
-      "btnText" : "Assembly Scripts"
-    },
-    {
-      "btnClass" : "lesson-plans",
-      "btnText" : "Lesson Plans"
-    },
-    {
-      "btnClass" : "videos active",
-      "btnText" : "Video"
-    }
-  ],
-  "contentMobileNav" : {
-  "selectOptions": [
-    {
-      "option" : "Video",
-      "selected" : "selected"
-    },
-    {
-      "option" : "Lesson Plans"
-    },
-    {
-      "option" : "Assembly Scripts"
-    }
-    ]
-  },
-  "modalDemo" : true,
-  "modalLogin" : {
-    "modalClass" : "modal-login",
-    "modalId" : "modalLogin",
-    "formElements" : [
+    "modalDemo" : true,
+    "modalLogin" : {
+      "modalClass" : "modal-login",
+      "modalId" : "modalLogin",
+      "formElements" : [
         {
           "placeholder" : "Email",
           "required" : "required",
@@ -724,84 +724,226 @@
           "type" : "password"
         }
       ],
-    "modalBodyLink": [
-			{
-				"btnClass": "",
-				"btnText": "Forgotten your password?"
-			}
-		],
-		"modalTitle" : "Login",
-		"modalFooterButton": [
-			{
-				"btnClass": "btn btn-primary btn-lg",
-				"btnText": "Login"
-			}
-		],
-		"modalFooterLink": [
-			{
-				"btnClass": "",
-				"btnText": "Don't have an account? Register for free here"
-			}
-		]
-  },
-  "registerForm" : {
-    "registerType" : [
-      {
-        "radioButtonLabel": "Student",
-        "radioId": "registerType",
-        "radioName": "registerType",
-        "radioChecked": "checked"
-      },
-      {
-        "radioButtonLabel": "Teacher",
-        "radioId": "registerType",
-        "radioName": "registerType",
-        "radioChecked": false
-      }
-    ],
-    "registerFirstName" : [
-      {
-        "placeholder" : "First Name",
-        "required": "required"
-      }
-    ],
-    "registerLastName" : {
-      "placeholder" : "Last Name",
-      "required": "required"
-    },
-    "registerSchool" : {
-      "placeholder" : "School",
-      "required": "required"
-    },
-    "registerEmail" : {
-      "placeholder" : "Email",
-      "type": "email",
-      "required": "required"
-    },
-    "registerPassword" : {
-      "placeholder" : "Password",
-      "type": "password",
-      "required": "required"
-    },
-    "registerTerms" : {
-      "checkbox": [
+      "modalBodyLink": [
         {
-          "css": "register-confirm-checkbox",
-          "checkboxContainer" : "register-confirm",
-          "label": "By checking this box you are agreeing to the <a href='#'>terms and conditions</a> of this site"
+          "btnClass": "",
+          "btnText": "Forgotten your password?"
+        }
+      ],
+      "modalTitle" : "Login",
+      "modalFooterButton": [
+        {
+          "btnClass": "btn btn-primary btn-lg",
+          "btnText": "Login"
+        }
+      ],
+      "modalFooterLink": [
+        {
+          "btnClass": "",
+          "btnText": "Don't have an account? Register for free here"
         }
       ]
     },
-    "registerSubmit" : {
-      "btnText" : "Register",
-      "btnClass" : "btn btn-primary btn-lg btn-register"
+    "registerForm" : {
+      "registerType" : [
+        {
+          "radioButtonLabel": "Student",
+          "radioId": "registerType",
+          "radioName": "registerType",
+          "radioChecked": "checked"
+        },
+        {
+          "radioButtonLabel": "Teacher",
+          "radioId": "registerType",
+          "radioName": "registerType",
+          "radioChecked": false
+        }
+      ],
+      "registerFirstName" : [
+        {
+          "placeholder" : "First Name",
+          "required": "required"
+        }
+      ],
+      "registerLastName" : {
+        "placeholder" : "Last Name",
+        "required": "required"
+      },
+      "registerSchool" : {
+        "placeholder" : "School",
+        "required": "required"
+      },
+      "registerEmail" : {
+        "placeholder" : "Email",
+        "type": "email",
+        "required": "required"
+      },
+      "registerPassword" : {
+        "placeholder" : "Password",
+        "type": "password",
+        "required": "required"
+      },
+      "registerTerms" : {
+        "checkbox": [
+          {
+            "css": "register-confirm-checkbox",
+            "checkboxContainer" : "register-confirm",
+            "label": "By checking this box you are agreeing to the <a href='#'>terms and conditions</a> of this site"
+          }
+        ]
+      },
+      "registerSubmit" : {
+        "btnText" : "Register",
+        "btnClass" : "btn btn-primary btn-lg btn-register"
+      },
+      "registerLogin": [
+        {
+          "btnClass": "",
+          "btnText": "Already Registered? Login here"
+        }
+      ]
     },
-    "registerLogin": [
-      {
-        "btnClass": "",
-        "btnText": "Already Registered? Login here"
+    "carousel" : {
+      "swiperContainerClass": "homepage-carousel",
+      "swiperSlides": [
+        {
+          "swiperSlideImage" : "/images/carousel/carousel_1.jpg",
+          "swiperSlideImageMed" : "/images/carousel/carousel_1_med.jpg",
+          "swiperSlideImageSmall" : "/images/carousel/carousel_1_small.jpg",
+          "swiperSlideTitle" : "<span>New Video:</span> Awkward",
+          "swiperSlideLink" : "#"
+        },
+        {
+          "swiperSlideImage" : "/images/carousel/carousel_2.jpg",
+          "swiperSlideImageMed" : "/images/carousel/carousel_2_med.jpg",
+          "swiperSlideImageSmall" : "/images/carousel/carousel_2_small.jpg",
+          "swiperSlideTitle" : "<span>New Video:</span> Freedom vs Security",
+          "swiperSlideLink" : "#"
+        },
+        {
+          "swiperSlideImage" : "/images/carousel/carousel_3.jpg",
+          "swiperSlideImageMed" : "/images/carousel/carousel_3_med.jpg",
+          "swiperSlideImageSmall" : "/images/carousel/carousel_3_small.jpg",
+          "swiperSlideTitle" : "<span>New Video:</span> I Know What I Want",
+          "swiperSlideLink" : "#"
+        },
+        {
+          "swiperSlideImage" : "/images/carousel/carousel_4.jpg",
+          "swiperSlideImageMed" : "/images/carousel/carousel_4_med.jpg",
+          "swiperSlideImageSmall" : "/images/carousel/carousel_4_small.jpg",
+          "swiperSlideTitle" : "<span>New Lesson Plan:</span> The Vihara",
+          "swiperSlideLink" : "#"
+        }
+      ],
+      "swiperPagination" : true
+    },
+    "partnersCarouselLink" : {
+      "btnClass" : "partners-carousel-link",
+      "btnText" : "Work with us",
+      "linkHref" : "link.pages-partners"
+    },
+    "partnersCarousel" : {
+      "carousel": {
+        "swiperContainerClass": "partners-carousel",
+        "swiperSlides": [
+          {
+            "swiperSlideImage" : "/images/partners/university_of_kent.png",
+            "swiperSlideImageMed" : "/images/partners/university_of_kent.png",
+            "swiperSlideImageSmall" : "/images/partners/university_of_kent.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/rm_unify.png",
+            "swiperSlideImageMed" : "/images/partners/rm_unify.png",
+            "swiperSlideImageSmall" : "/images/partners/rm_unify.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/frog.png",
+            "swiperSlideImageMed" : "/images/partners/frog.png",
+            "swiperSlideImageSmall" : "/images/partners/frog.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/spiral.png",
+            "swiperSlideImageMed" : "/images/partners/spiral.png",
+            "swiperSlideImageSmall" : "/images/partners/spiral.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/tes.png",
+            "swiperSlideImageMed" : "/images/partners/tes.png",
+            "swiperSlideImageSmall" : "/images/partners/tes.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/re_online.png",
+            "swiperSlideImageMed" : "/images/partners/re_online.png",
+            "swiperSlideImageSmall" : "/images/partners/re_online.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/lumo.png",
+            "swiperSlideImageMed" : "/images/partners/lumo.png",
+            "swiperSlideImageSmall" : "/images/partners/lumo.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/waddel.png",
+            "swiperSlideImageMed" : "/images/partners/waddel.png",
+            "swiperSlideImageSmall" : "/images/partners/waddel.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/asdan.png",
+            "swiperSlideImageMed" : "/images/partners/asdan.png",
+            "swiperSlideImageSmall" : "/images/partners/asdan.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/pshe.png",
+            "swiperSlideImageMed" : "/images/partners/pshe.png",
+            "swiperSlideImageSmall" : "/images/partners/pshe.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/bio_mation.png",
+            "swiperSlideImageMed" : "/images/partners/bio_mation.png",
+            "swiperSlideImageSmall" : "/images/partners/bio_mation.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/bee_it.png",
+            "swiperSlideImageMed" : "/images/partners/bee_it.png",
+            "swiperSlideImageSmall" : "/images/partners/bee_it.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/lgfl.png",
+            "swiperSlideImageMed" : "/images/partners/lgfl.png",
+            "swiperSlideImageSmall" : "/images/partners/lgfl.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/mtv.png",
+            "swiperSlideImageMed" : "/images/partners/mtv.png",
+            "swiperSlideImageSmall" : "/images/partners/mtv.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/manifesta.png",
+            "swiperSlideImageMed" : "/images/partners/manifesta.png",
+            "swiperSlideImageSmall" : "/images/partners/manifesta.png",
+            "swiperSlideLink" : "#"
+          },
+          {
+            "swiperSlideImage" : "/images/partners/moviestorm.png",
+            "swiperSlideImageMed" : "/images/partners/moviestorm.png",
+            "swiperSlideImageSmall" : "/images/partners/moviestorm.png",
+            "swiperSlideLink" : "#"
+          }
+        ],
+        "swiperPagination" : true
       }
-    ]
-  }
-
+    }
   }
