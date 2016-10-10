@@ -5178,7 +5178,6 @@ input:valid {
     .content-info {
       margin: 1rem 0; } }
   .content-info p {
-    font-family: Arial, sans-serif;
     text-align: justify;
     order: 1; }
     @media (min-width: 1200px) {
