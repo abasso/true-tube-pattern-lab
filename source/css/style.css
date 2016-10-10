@@ -4336,8 +4336,7 @@ button.close {
   flex-direction: column; }
 
 .block-media__description {
-  font-weight: 200;
-  font-family: Arial, sans-serif; }
+  font-weight: 200; }
 
 .hide-description .block-media__description {
   display: none; }
