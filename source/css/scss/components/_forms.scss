@@ -23,7 +23,7 @@ fieldset {
         background-size:10px 10px;
         width:10px;
         height:10px;
-        }
+      }
     }
 
   }
@@ -56,17 +56,17 @@ fieldset {
 //   background:no-repeat 99% center url("../../images/error.svg");
 //   background-size:20px 20px;
 // }
-
-input {
-  &:required {
+.register, .modal-login {
+  input {
+    &:required {
+      &:valid {
+        background:no-repeat 99% center url("../../images/correct.svg");
+        background-size:20px 20px;
+      }
+    }
     &:valid {
       background:no-repeat 99% center url("../../images/correct.svg");
       background-size:20px 20px;
     }
   }
-  &:valid {
-    background:no-repeat 99% center url("../../images/correct.svg");
-    background-size:20px 20px;
-  }
-
 }

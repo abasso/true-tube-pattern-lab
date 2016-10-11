@@ -605,11 +605,11 @@
     ],
     "videoActions" : [
       {
-        "btnClass" : "icon-download icon-small icon-left",
+        "btnClass" : "icon-download icon-small icon-left video-download",
         "btnText" : "Download"
       },
       {
-        "btnClass" : "icon-embed icon-small icon-left",
+        "btnClass" : "icon-embed icon-small icon-left video-embed",
         "btnText" : "Embed"
       }
     ],
@@ -639,15 +639,7 @@
     "ratingLabel" : "2 Votes",
     "contentNav" : [
       {
-        "btnClass" : "interactive ",
-        "btnText" : "Interactive"
-      },
-      {
-        "btnClass" : "assembly-plans ",
-        "btnText" : "Assembly Scripts"
-      },
-      {
-        "btnClass" : "lesson-plans",
+        "btnClass" : "lesson-plans ",
         "btnText" : "Lesson Plans"
       },
       {

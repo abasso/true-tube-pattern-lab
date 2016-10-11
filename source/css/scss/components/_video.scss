@@ -51,6 +51,20 @@
     }
   }
 }
+.video-embed-container {
+  border-top:solid 1px $gray-lighter;
+  display:none;
+  position:relative;
+  .video-embed-form {
+    padding:1rem 0;
+    .btn {
+      margin:0;
+    }
+  }
+  &.show {
+    display:block;
+  }
+}
 
 .video-footer {
   @media(max-width: $breakpoint-xl) {

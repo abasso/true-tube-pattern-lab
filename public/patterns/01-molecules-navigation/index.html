@@ -19,8 +19,8 @@
 <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 <meta http-equiv="pragma" content="no-cache" />
 
-<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1476108144799" media="all">
-<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1476108144799" media="all" />
+<link rel="stylesheet" href="../../styleguide/css/styleguide.min.css?1476188032816" media="all">
+<link rel="stylesheet" href="../../styleguide/css/prism-typeahead.min.css?1476188032816" media="all" />
 
     <!-- End Pattern Lab -->
 
@@ -84,11 +84,7 @@
   </div>
   <div class="sg-pattern-example">
     <nav id="nav" class="content-nav">
-      <button class="btn interactive "><span>Interactive</span></button>
-
-      <button class="btn assembly-plans "><span>Assembly Scripts</span></button>
-
-      <button class="btn lesson-plans"><span>Lesson Plans</span></button>
+      <button class="btn lesson-plans "><span>Lesson Plans</span></button>
 
       <button class="btn videos active"><span>Video</span></button>
 
@@ -446,12 +442,23 @@
 
 
   <div class="video-actions hidden-sm-down">
-      <a href="" class="icon-download icon-small icon-left" >Download</a>
+      <a href="" class="icon-download icon-small icon-left video-download" >Download</a>
 
-      <a href="" class="icon-embed icon-small icon-left" >Embed</a>
+      <a href="" class="icon-embed icon-small icon-left video-embed" >Embed</a>
 
   </div>
 
+</div>
+<div class="video-embed-container">
+  <div class="video-embed-form">
+    <label>Use the following code to embed this video on your site or blog:</label>
+    <div class="input-group">
+      <input type="text" class="form-control" value="<iframe src='https://www.truetube.co.uk/embed/1970/700/395' width='700' height='395' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe>">
+      <span class="input-group-btn">
+        <button class="btn" type="button">Copy</button>
+      </span>
+    </div>
+  </div>
 </div>
 
   </div>
@@ -501,10 +508,10 @@
   }
 </script>
 
-<script id="pl-js-polyfill-insert-1476108144799">
+<script id="pl-js-polyfill-insert-1476188032816">
   (function() {
     if (self != top) {
-      var cb = '1476108144799';
+      var cb = '1476188032816';
       var js = [];
       if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
         js.push('styleguide/bower_components/classList.min.js');
@@ -514,10 +521,10 @@
   })();
 </script>
 
-<script id="pl-js-insert-1476108144799">
+<script id="pl-js-insert-1476188032816">
   (function() {
     if (self != top) {
-      var cb = '1476108144799';
+      var cb = '1476188032816';
       var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
       scriptLoader.run(js,cb,'pl-js-insert');
     }

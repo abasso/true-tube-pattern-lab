@@ -63,19 +63,19 @@ $(".collapse-toggle").on("click", function() {
 });
 
 $(".btn-dyslexia").on("click", function() {
-  if ($('body').hasClass("dyslexia")) {
-      $('body').removeClass("dyslexia");
+  if ($("body").hasClass("dyslexia")) {
+      $("body").removeClass("dyslexia");
   } else {
-    $('body').addClass("dyslexia");
+    $("body").addClass("dyslexia");
   }
 });
 
 $(".btn-font-smaller").on("click", function() {
-  $('html').removeAttr('style').css("font-size", (fontSize--) + 'px');
+  $("html").removeAttr("style").css("font-size", (fontSize--) + "px");
 });
 
 $(".btn-font-bigger").on("click", function() {
-  $('html').removeAttr('style').css("font-size", (fontSize++) + 'px');
+  $("html").removeAttr("style").css("font-size", (fontSize++) + "px");
 });
 // $(".register-confirm label").off().on("click", function() {
 //   if($(".register-confirm-checkbox").checked) {
@@ -90,6 +90,14 @@ $(".add-to-toolbox a").on("click", function() {
     $(this).removeClass("added").html("Add to My Toolbox");
   } else {
     $(this).addClass("added").html("Remove from My Toolbox")
+  }
+});
+
+$(".video-embed").on("click", function() {
+  if ($(".video-embed-container").hasClass("show")) {
+    $(".video-embed-container").removeClass("show");
+  } else {
+    $(".video-embed-container").addClass("show");
   }
 });
 
