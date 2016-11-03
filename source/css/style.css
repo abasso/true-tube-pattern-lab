@@ -4436,7 +4436,7 @@ body.fixed {
 
 header {
   width: 100%;
-  background: #262625;
+  background: white;
   position: relative; }
   header .menu-mobile {
     transition: all 0.4s ease; }
@@ -4502,7 +4502,7 @@ header {
       margin: 0 .5rem; }
       header .primary-nav .primary-nav__item a {
         transition: all 0.4s ease;
-        color: #fff;
+        color: black;
         font-weight: 200;
         font-size: 1.25rem;
         border-bottom: solid 1px rgba(255, 255, 255, 0.1); }
@@ -4510,7 +4510,7 @@ header {
           border-bottom-color: #55595c; }
   header .secondary-nav {
     display: flex;
-    background: black;
+    background: #eceeef;
     width: 100%; }
     header .secondary-nav .container {
       justify-content: space-between;
@@ -4523,10 +4523,10 @@ header {
       padding: 0.875rem; }
       header .secondary-nav .secondary-nav__item a {
         transition: all 0.4s;
-        color: #fff;
+        color: #818a91;
         font-weight: 200;
         font-size: 0.875rem;
-        border-bottom: solid 1px #262625; }
+        border-bottom: solid 1px #eceeef; }
         header .secondary-nav .secondary-nav__item a:hover {
           border-bottom: solid 1px #55595c; }
   header .container {
