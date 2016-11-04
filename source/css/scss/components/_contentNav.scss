@@ -30,17 +30,18 @@
       text-align:inherit;
       transition: none;
       outline:none;
+      border-radius:$border-radius-sm;
       @media(min-width: $breakpoint-xl) {
         padding:.75rem 1.25rem;
       }
       background:$gray-lightest;
-      border:solid 1px $gray-lighter;
+      //border:solid 1px $gray-lighter;
       color:$brand-grey;
       margin: 0 0 0.4rem 0.4rem;
-      span {
-        font-weight:200;
-        border-bottom:dotted 1px $gray-light;
-      }
+      // span {
+      //   font-weight:200;
+      //   border-bottom:dotted 1px $gray-light;
+      // }
       &.hidden {
         display:none;
       }

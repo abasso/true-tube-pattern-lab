@@ -142,3 +142,7 @@ if(desktopSearchInput) desktopSearchInput.addEventListener("focus", function() {
 if(desktopSearchInput) desktopSearchInput.addEventListener("blur", function() {
   desktopSearch.classList.remove("active");
 });
+
+$(".call-to-action-link").on("click", function(event) {
+  $('.call-to-action').slideUp();
+});

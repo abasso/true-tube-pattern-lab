@@ -6,7 +6,7 @@ body {
 
 .logo {
   margin:1rem 0;
-  height:70px;
+  height:55px;
   @media(max-width: $breakpoint-sm) {
     height:50px;
   }
@@ -14,7 +14,7 @@ body {
 
 header {
   width:100%;
-  background:white;
+  background:$gray-lightest;
   position:relative;
   .menu-mobile {
     transition: all 0.4s ease;
@@ -35,7 +35,7 @@ header {
     .primary-nav {
       position:relative;
       top:0px;
-      margin-left:1rem;
+      padding-bottom:1rem;
       border-bottom:solid 3px $brand-yellow;
       .primary-nav__item {
         margin:.5rem 0;
@@ -78,22 +78,28 @@ header {
   .primary-nav {
     display:flex;
     flex-direction: column;
-    margin-left:auto;
+    width:100%;
     @media(min-width: $breakpoint-lg) {
+      margin-left:2rem;
       align-self:center;
       flex-direction: row;
       align-items: center;
     }
-    top:40px;
-    right:13px;
     .primary-nav__item {
       order:2;
-      margin: 0 .5rem;
+      margin: 0 .75rem;
       a {
         transition: all 0.4s ease;
-        color:black;
+        color:white;
+        @media(min-width: $breakpoint-lg) {
+          color:black;
+          font-size:$font-size-base;
+        }
+        @media(min-width: $breakpoint-xl) {
+          color:black;
+          font-size:$font-size-lg;
+        }
         font-weight:200;
-        font-size:$font-size-lg;
         border-bottom:solid 1px rgba(255,255,255,0.1);
         &:hover {
           border-bottom-color:$gray;
@@ -105,13 +111,20 @@ header {
 
 
   .secondary-nav {
-    display:flex;
-    background:$gray-lighter;
+    //display:none;
+    //border-top: solid 1px rgba(0,0,0,0.2);
+    background:black;
+    @media(min-width: $breakpoint-lg) {
+      background:$gray-lighter;
+    }
     width:100%;
     .container {
+      padding:1rem;
       justify-content:space-between;
       flex-direction: column;
       @media(min-width: $breakpoint-lg) {
+        padding:0;
+        background:$gray-lighter;
         flex-direction: row;
       }
       width:100%;
@@ -122,10 +135,12 @@ header {
       padding:0.875rem;
       a {
         transition: all 0.4s;
-        color:$gray-light;
+        color:white;
+        @media(min-width: $breakpoint-lg) {
+          color:black;
+        }
         font-weight:200;
         font-size:$font-size-sm;
-        border-bottom: solid 1px $gray-lighter;
         &:hover {
           border-bottom: solid 1px $gray;
         }
@@ -146,7 +161,7 @@ header {
       display:block;
     }
     transition: all 0.4s ease;
-    border:solid 1px rgba(255,255,255,0.2) !important;
+    border:solid 1px rgba(0,0,0,0.2) !important;
     background: no-repeat center center url("../images/burger-menu.svg");
     background-size:16px;
     width:40px;
@@ -181,8 +196,8 @@ header {
     display:block;
   }
   transition: all 0.4s ease;
-  border:solid 1px rgba(255,255,255,0.2) !important;
-  background: no-repeat center center url("../images/search.svg");
+  border:solid 1px rgba(0,0,0,0.2) !important;
+  background: no-repeat center center url("../images/search_black.svg");
   background-size:16px;
   width:40px;
   height:40px;

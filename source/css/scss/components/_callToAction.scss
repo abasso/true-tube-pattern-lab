@@ -12,28 +12,42 @@
   }
   .call-to-action-copy {
     font-weight:200;
-    align-self: center;
     flex-grow:2;
-    padding-right:1rem;
-    @media(min-width: $breakpoint-xl) {
+    font-size:1.25rem;
+    border-bottom:solid 1px rgba(0,0,0,0.1);
+    margin-bottom:1rem;
+    padding-bottom:1rem;
+    text-align:center;
+    @media(min-width: $breakpoint-md) {
+      align-self: center;
       display:flex;
+      border-bottom:none;
+      margin-bottom:0;
+      padding-bottom:0;
+      text-align:left;
+      padding-right:1rem;
     }
   }
   .call-to-action-nav {
-    align-self: center;
-    margin-left:auto;
+    display:flex;
+    align-items: center;
+    //margin-left:auto;
     .btn {
       margin:.25rem 0;
     }
   }
   .call-to-action-link {
     border-bottom:dotted 1px $brand-grey;
-    float:none;
-    font-weight:400;
+    font-weight:200;
     margin-left:auto;
+    font-size:1rem;
+    @media(min-width: $breakpoint-md) {
+      margin-left:1rem;
+    }
   }
   .btn {
     border-radius:$border-radius-sm;
+    font-weight:400;
     &:hover {
       background:black;
       color:$brand-yellow;
@@ -41,5 +55,9 @@
   }
   .container {
     display:flex;
+    flex-direction:column;
+    @media(min-width: $breakpoint-md) {
+      flex-direction:row;
+    }
   }
 }

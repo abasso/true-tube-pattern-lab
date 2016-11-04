@@ -1,6 +1,6 @@
 .grid-filter {
   background:$gray-lightest;
-  border:solid 1px $gray-lighter;
+  // border:solid 1px $gray-lighter;
   margin:20px 0;
   border-radius:$border-radius-sm;
   padding:20px;
@@ -45,6 +45,7 @@
     border:solid 1px $gray-lighter;
     color:$gray;
     font-weight:200;
+    border-radius:$border-radius-xs;
     @media(min-width: $breakpoint-xl) {
       &:hover {
         background:$gray;

@@ -1,7 +1,6 @@
 
 
 <header class="c-header" role="banner">
-	{{> molecules-call-to-action }}
 	<div class="container">
 		<div class="mobile-logo hidden-lg-up">
 		{{> molecules-logo-link }}
@@ -12,13 +11,23 @@
 	</div>
 	<div class="menu-mobile">
 	<div class="container">
-	{{> molecules-logo-link }}
-
+		<div class="mobile-logo hidden-lg-up">
+			<a href="/patterns/03-pages-00-homepage/03-pages-00-homepage.html" class="c-logo-link">
+			 <img src="../../images/true-tube-logo_white.svg" class="logo c-logo-link__img" alt="True Tube">
+		  </a>
+		</div>
+		<div class="mobile-logo hidden-md-down">
+			<a href="/patterns/03-pages-00-homepage/03-pages-00-homepage.html" class="c-logo-link">
+			 <img src="../../images/true-tube-logo_black.svg" class="logo c-logo-link__img" alt="True Tube">
+			</a>
+		</div>
 		{{> molecules-primary-nav }}
 </div>
 {{> molecules-secondary-nav }}
+
 <div class="mobile-nav__close"><a href="{{ url }}">{{ label }}</a></div>
 
 </div>
 
 </header><!-- end c-header -->
+{{> molecules-call-to-action }}

@@ -10,7 +10,7 @@
   color: $color;
   background-color: $background;
   border-color: $border;
-
+  border-radius:$border-radius-xs;
   @include hover {
     color: $color;
     background-color: $active-background;
@@ -21,14 +21,14 @@
     @include transition(all .2s ease-in-out);
     display:inline-block;
     position:relative;
-    &:before {
-      content: "";
-      border-bottom: dotted 1px rgba($color,0.5);
-      bottom: 0px;
-      position: absolute;
-      left:1px;
-      right:1px;
-    }
+    // &:before {
+    //   content: "";
+    //   border-bottom: dotted 1px rgba($color,0.5);
+    //   bottom: 0px;
+    //   position: absolute;
+    //   left:1px;
+    //   right:1px;
+    // }
   }
 
   &:focus,
